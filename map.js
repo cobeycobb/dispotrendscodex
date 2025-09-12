@@ -259,52 +259,34 @@ class TerritoryMap {
         const cityCoords = this.getCityCoordinates();
         console.log('City coordinates loaded:', Object.keys(cityCoords).length, 'cities');
         
-        // Add markers for filtered dispensaries
-        let markersAdded = 0;
-        let coordsNotFound = 0;
-        
-        this.filteredData.forEach((dispensary, index) => {
-            let lat = null;
-            let lng = null;
-
-            // Prefer precise coordinates if present in data
-            if (dispensary.latitude != null && dispensary.longitude != null) {
-                const latNum = parseFloat(dispensary.latitude);
-                const lngNum = parseFloat(dispensary.longitude);
-                if (isFinite(latNum) && isFinite(lngNum)) {
-                    lat = latNum;
-                    lng = lngNum;
-                }
+        // Helper to resolve precise coordinates (data or geocache)
+        const resolvePrecise = (d) => {
+            let lat = null, lng = null;
+            if (d.latitude != null && d.longitude != null) {
+                const latNum = parseFloat(d.latitude);
+                const lngNum = parseFloat(d.longitude);
+                if (isFinite(latNum) && isFinite(lngNum)) return [latNum, lngNum];
             }
-
-            // Fall back to geocoded cache by address + city (+zip) if available
-            if ((lat == null || lng == null) && this.geoCache) {
-                const addr = (dispensary.address || '').trim();
-                const city = (dispensary.city || '').trim();
-                const zip = dispensary.zip;
+            if (this.geoCache) {
+                const addr = (d.address || '').trim();
+                const city = (d.city || '').trim();
+                const zip = d.zip;
                 const candidates = [];
                 if (addr && city) {
                     candidates.push(`${addr}, ${city}`);
                     if (zip != null) {
                         const zipStr = String(zip);
                         candidates.push(`${addr}, ${city} ${zipStr}`);
-                        // Some cache entries store zip with one decimal (e.g., 87507.0)
                         if (!zipStr.includes('.')) {
                             candidates.push(`${addr}, ${city} ${Number(zip).toFixed(1)}`);
                         }
                     }
                 }
-
-                // Try exact keys first, then normalized matching
                 for (const key of candidates) {
                     const hit = this.geoCache[key];
-                    if (hit && isFinite(hit.lat) && isFinite(hit.lng)) {
-                        lat = hit.lat;
-                        lng = hit.lng;
-                        break;
-                    }
+                    if (hit && isFinite(hit.lat) && isFinite(hit.lng)) return [hit.lat, hit.lng];
                 }
-                if ((lat == null || lng == null) && this.geoCacheNorm && candidates.length) {
+                if (this.geoCacheNorm && candidates.length) {
                     const norm = (s) => String(s || '')
                         .toLowerCase()
                         .replace(/[.,]/g, '')
@@ -313,27 +295,70 @@ class TerritoryMap {
                     for (const key of candidates) {
                         const nkey = norm(key);
                         const hit = this.geoCacheNorm[nkey];
-                        if (hit && isFinite(hit.lat) && isFinite(hit.lng)) {
-                            lat = hit.lat;
-                            lng = hit.lng;
-                            break;
-                        }
+                        if (hit && isFinite(hit.lat) && isFinite(hit.lng)) return [hit.lat, hit.lng];
                     }
                 }
             }
+            return null;
+        };
 
-            // Fall back to city centroid with small stable jitter (for overlap avoidance)
-            if (lat == null || lng == null) {
-                const coords = cityCoords[dispensary.city];
-                if (!coords) {
+        // First pass: figure out which items lack precise coords, group by city
+        const cityGroups = {};
+        const preciseMap = {};
+        const keyOf = (d) => `${d.address}|${d.licensee}`;
+        this.filteredData.forEach(d => {
+            const coords = resolvePrecise(d);
+            if (coords) {
+                preciseMap[keyOf(d)] = coords;
+            } else {
+                const city = d.city;
+                if (!city || !cityCoords[city]) return; // will be skipped later
+                if (!cityGroups[city]) cityGroups[city] = [];
+                cityGroups[city].push(d);
+            }
+        });
+
+        // Build deterministic offsets per city using golden-angle spiral
+        const offsetMap = {}; // key -> [dLat, dLng]
+        const GOLDEN_ANGLE = Math.PI * (3 - Math.sqrt(5)); // ~2.399963
+        Object.keys(cityGroups).forEach(city => {
+            const center = cityCoords[city];
+            const latRad = center[0] * Math.PI / 180;
+            const cosLat = Math.cos(latRad) || 1;
+            const group = cityGroups[city]
+                .slice()
+                .sort((a, b) => keyOf(a).localeCompare(keyOf(b))); // stable order
+            const n = group.length;
+            // Scale radius with sqrt(i) so outer ring grows gradually
+            const base = 0.002; // degrees
+            const scale = 0.0018; // degrees
+            group.forEach((d, i) => {
+                const angle = i * GOLDEN_ANGLE;
+                const r = base + scale * Math.sqrt(i);
+                const dLat = r * Math.cos(angle);
+                const dLng = (r * Math.sin(angle)) / cosLat;
+                offsetMap[keyOf(d)] = [dLat, dLng];
+            });
+        });
+
+        // Second pass: place markers
+        let markersAdded = 0;
+        let coordsNotFound = 0;
+        this.filteredData.forEach((dispensary, index) => {
+            const key = keyOf(dispensary);
+            let latlng = preciseMap[key];
+            if (!latlng) {
+                const center = cityCoords[dispensary.city];
+                if (!center) {
                     coordsNotFound++;
                     if (index < 5) console.log('No coords for city:', dispensary.city, 'dispensary:', dispensary.licensee);
                     return;
                 }
-                const jitter = this.getStableJitter(`${dispensary.address}|${dispensary.licensee}`, 0.004);
-                lat = coords[0] + jitter[0];
-                lng = coords[1] + jitter[1];
+                const off = offsetMap[key] || [0, 0];
+                latlng = [center[0] + off[0], center[1] + off[1]];
             }
+            const lat = latlng[0];
+            const lng = latlng[1];
             
             // Color based on trend
             const colors = {
