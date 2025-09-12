@@ -9,6 +9,8 @@ class TerritoryMap {
         this.map = null;
         this.markers = [];
         this.nmCenter = [34.5199, -105.8701];
+        this.geoCache = null; // raw cache
+        this.geoCacheNorm = null; // normalized lookup
         
         this.init();
     }
@@ -32,9 +34,41 @@ class TerritoryMap {
             }
             
             this.data = await response.json();
-            this.filteredData = [...this.data.dispensaries];
-            console.log('Data loaded successfully:', this.data.dispensaries.length, 'dispensaries');
-            console.log('Sample dispensary:', this.data.dispensaries[0]);
+
+            // Load geocoded cache for precise coordinates
+            try {
+                const geoResp = await fetch('geocoded_cache.json');
+                if (geoResp.ok) {
+                    this.geoCache = await geoResp.json();
+                    // Build normalized index for fuzzy matching
+                    this.geoCacheNorm = {};
+                    const norm = (s) => String(s || '')
+                        .toLowerCase()
+                        .replace(/[.,]/g, '')
+                        .replace(/\s+/g, ' ')
+                        .trim();
+                    Object.keys(this.geoCache).forEach(key => {
+                        this.geoCacheNorm[norm(key)] = this.geoCache[key];
+                    });
+                    console.log('Geocoded cache loaded:', Object.keys(this.geoCache).length, 'entries');
+                } else {
+                    console.warn('Geocoded cache not found or failed to load');
+                }
+            } catch (e) {
+                console.warn('Error loading geocoded cache:', e);
+            }
+
+            // Use unified locations dataset
+            if (this.data && this.data.locations && Array.isArray(this.data.locations.data)) {
+                this.filteredData = [...this.data.locations.data];
+                console.log('Data loaded successfully:', this.data.locations.data.length, 'locations');
+            } else if (Array.isArray(this.data.dispensaries)) {
+                // Fallback for older schema
+                this.filteredData = [...this.data.dispensaries];
+                console.log('Using legacy dispensaries schema:', this.data.dispensaries.length);
+            } else {
+                throw new Error('No dispensary locations found in data');
+            }
         } catch (error) {
             console.error('Error loading data:', error);
             this.showError('Failed to load dispensary data: ' + error.message);
@@ -73,7 +107,7 @@ class TerritoryMap {
 
         // Populate regions
         const regionSelect = document.getElementById('region-filter');
-        this.data.regions.forEach(region => {
+        (this.data.regions || []).forEach(region => {
             const option = document.createElement('option');
             option.value = region;
             option.textContent = region;
@@ -81,7 +115,8 @@ class TerritoryMap {
         });
 
         // Get unique cities
-        const cities = [...new Set(this.data.dispensaries.map(d => d.city))]
+        const source = this.data.locations && this.data.locations.data ? this.data.locations.data : this.data.dispensaries;
+        const cities = [...new Set(source.map(d => d.city))]
             .filter(city => city && city.trim() !== '')
             .sort();
 
@@ -97,7 +132,8 @@ class TerritoryMap {
     applyFilters() {
         if (!this.data) return;
 
-        let filtered = [...this.data.dispensaries];
+        const source = this.data.locations && this.data.locations.data ? this.data.locations.data : this.data.dispensaries;
+        let filtered = [...source];
 
         // Search filter
         const searchTerm = document.getElementById('search').value.toLowerCase();
@@ -241,7 +277,52 @@ class TerritoryMap {
                 }
             }
 
-            // Fall back to city centroid with stable jitter
+            // Fall back to geocoded cache by address + city (+zip) if available
+            if ((lat == null || lng == null) && this.geoCache) {
+                const addr = (dispensary.address || '').trim();
+                const city = (dispensary.city || '').trim();
+                const zip = dispensary.zip;
+                const candidates = [];
+                if (addr && city) {
+                    candidates.push(`${addr}, ${city}`);
+                    if (zip != null) {
+                        const zipStr = String(zip);
+                        candidates.push(`${addr}, ${city} ${zipStr}`);
+                        // Some cache entries store zip with one decimal (e.g., 87507.0)
+                        if (!zipStr.includes('.')) {
+                            candidates.push(`${addr}, ${city} ${Number(zip).toFixed(1)}`);
+                        }
+                    }
+                }
+
+                // Try exact keys first, then normalized matching
+                for (const key of candidates) {
+                    const hit = this.geoCache[key];
+                    if (hit && isFinite(hit.lat) && isFinite(hit.lng)) {
+                        lat = hit.lat;
+                        lng = hit.lng;
+                        break;
+                    }
+                }
+                if ((lat == null || lng == null) && this.geoCacheNorm && candidates.length) {
+                    const norm = (s) => String(s || '')
+                        .toLowerCase()
+                        .replace(/[.,]/g, '')
+                        .replace(/\s+/g, ' ')
+                        .trim();
+                    for (const key of candidates) {
+                        const nkey = norm(key);
+                        const hit = this.geoCacheNorm[nkey];
+                        if (hit && isFinite(hit.lat) && isFinite(hit.lng)) {
+                            lat = hit.lat;
+                            lng = hit.lng;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            // Fall back to city centroid with small stable jitter (for overlap avoidance)
             if (lat == null || lng == null) {
                 const coords = cityCoords[dispensary.city];
                 if (!coords) {
@@ -249,7 +330,7 @@ class TerritoryMap {
                     if (index < 5) console.log('No coords for city:', dispensary.city, 'dispensary:', dispensary.licensee);
                     return;
                 }
-                const jitter = this.getStableJitter(`${dispensary.address}|${dispensary.licensee}`, 0.01);
+                const jitter = this.getStableJitter(`${dispensary.address}|${dispensary.licensee}`, 0.004);
                 lat = coords[0] + jitter[0];
                 lng = coords[1] + jitter[1];
             }
@@ -339,7 +420,8 @@ class TerritoryMap {
         console.log('Total markers on map:', this.markers.length);
 
         // Adjust map view to show all markers if we have filtered data
-        if (this.markers.length > 0 && this.markers.length < this.data.dispensaries.length) {
+        const totalCount = this.data.locations && this.data.locations.data ? this.data.locations.data.length : (this.data.dispensaries ? this.data.dispensaries.length : 0);
+        if (this.markers.length > 0 && this.markers.length < totalCount) {
             const group = new L.featureGroup(this.markers);
             this.map.fitBounds(group.getBounds().pad(0.1));
             console.log('Map view adjusted to fit markers');
