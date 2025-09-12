@@ -24,24 +24,32 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 0.75rem 1rem;
-            text-align: center;
+        }
+
+        .header-inner {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            align-items: center;
+            gap: 0.75rem;
         }
 
         .header h1 {
             font-size: 1.5rem;
             font-weight: 700;
             margin: 0 0 0.25rem 0;
+            text-align: center;
         }
 
         .header p {
             font-size: 0.8rem;
             opacity: 0.9;
             margin: 0;
+            text-align: center;
         }
 
         .stats-nav-bar {
             display: grid;
-            grid-template-columns: auto 1fr auto;
+            grid-template-columns: 1fr auto 1fr;
             gap: 1rem;
             margin: 0.75rem 1rem;
             align-items: center;
@@ -53,25 +61,26 @@
         }
 
         .nav-button {
-            padding: 0.5rem 1rem;
-            background: #667eea;
-            color: white;
+            padding: 0.4rem 0.75rem;
+            background: #ffffff;
+            color: #4c51bf;
             text-decoration: none;
-            border-radius: 4px;
-            font-weight: 500;
+            border-radius: 6px;
+            font-weight: 600;
             font-size: 0.85rem;
             transition: all 0.2s;
-            border: 1px solid #667eea;
+            border: 2px solid #ffffff;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
         }
 
         .nav-button:hover {
-            background: #5a67d8;
-            border-color: #5a67d8;
+            filter: brightness(0.97);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
         }
 
         .nav-button.active {
-            background: #4c51bf;
-            border-color: #4c51bf;
+            border-color: #c7d2fe;
         }
 
         .stats-compact {
@@ -102,6 +111,7 @@
 
         .view-toggle-left {
             margin: 0.5rem 1rem 0 1rem;
+            display: none; /* Hide Locations/Companies toggle for now */
         }
 
         .view-toggle-buttons {
@@ -205,6 +215,18 @@
             background: #667eea;
             color: white;
             border-color: #667eea;
+        }
+
+        /* Trend bar above controls */
+        .trend-bar {
+            margin: 0.5rem 1rem 0 1rem;
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+        .trend-bar-label {
+            font-weight: 600;
+            color: #333;
         }
 
         .main-content {
@@ -350,6 +372,11 @@
             font-weight: 600;
             margin-bottom: 1rem;
             text-align: center;
+        }
+
+        /* Highlight selected table row */
+        .selected-row {
+            background: #FEF3C7 !important; /* amber-100 */
         }
 
         @media (max-width: 768px) {
@@ -572,16 +599,21 @@
 </head>
 <body>
     <div class="header">
-        <h1>New Mexico Dispensary Trends</h1>
-        <p>Sales analysis and trends for licensed cannabis retailers (Jan-Aug 2025)</p>
+        <div class="header-inner">
+            <div class="nav-buttons-left">
+                <a href="index.html" class="nav-button active">📊 Dashboard</a>
+                <a href="map.html" class="nav-button">🗺️ Territory Map</a>
+            </div>
+            <div>
+                <h1>New Mexico Dispensary Trends</h1>
+                <p>Sales analysis and trends for licensed cannabis retailers (Jan-Aug 2025)</p>
+            </div>
+            <div></div>
+        </div>
     </div>
 
     <div class="stats-nav-bar">
-        <div class="nav-buttons-left">
-            <a href="index.html" class="nav-button active">📊 Dashboard</a>
-            <a href="map.html" class="nav-button">🗺️ Territory Map</a>
-        </div>
-        
+        <div></div>
         <div class="stats-compact">
             <div class="stat-card">
                 <div class="stat-number" id="total-dispensaries">-</div>
@@ -600,14 +632,23 @@
                 <div class="stat-label">Stable</div>
             </div>
         </div>
-        
-        <div></div> <!-- Spacer for right alignment -->
+        <div></div>
     </div>
 
     <div class="view-toggle-left">
         <div class="view-toggle-buttons">
             <button class="toggle-button active" data-view="location">📍 Locations</button>
             <button class="toggle-button" data-view="company">🏢 Companies</button>
+        </div>
+    </div>
+
+    <div class="trend-bar">
+        <div class="trend-bar-label">Trend:</div>
+        <div class="trend-filters">
+            <div class="trend-filter active" data-trend="all">All</div>
+            <div class="trend-filter" data-trend="up">↗ Up</div>
+            <div class="trend-filter" data-trend="down">↘ Down</div>
+            <div class="trend-filter" data-trend="stable">→ Stable</div>
         </div>
     </div>
 
@@ -641,15 +682,7 @@
                     </div>
                 </div>
             </div>
-            <div class="control-group">
-                <label>Trend</label>
-                <div class="trend-filters">
-                    <div class="trend-filter active" data-trend="all">All</div>
-                    <div class="trend-filter" data-trend="up">↗ Up</div>
-                    <div class="trend-filter" data-trend="down">↘ Down</div>
-                    <div class="trend-filter" data-trend="stable">→ Stable</div>
-                </div>
-            </div>
+            
         </div>
     </div>
 

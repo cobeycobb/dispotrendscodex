@@ -10,6 +10,8 @@ class DispensaryDashboard {
         this.currentView = 'location'; // 'location' or 'company'
         this.sortColumn = 'latest_sales';
         this.sortDirection = 'desc';
+        this.selectedLicensee = null;
+        this.selectedAddress = null;
         
         this.init();
     }
@@ -401,6 +403,9 @@ class DispensaryDashboard {
     updateDisplay() {
         this.updateStats();
         this.updateTable();
+        if (this.selectedLicensee) {
+            this.highlightSelectedRow();
+        }
     }
 
     updateSortIndicators() {
@@ -592,6 +597,24 @@ class DispensaryDashboard {
         resultsCount.textContent = `${this.filteredData.length.toLocaleString()} results`;
     }
 
+    highlightSelectedRow() {
+        const tbody = document.getElementById('dispensary-table');
+        if (!tbody) return;
+        // Remove previous selection
+        tbody.querySelectorAll('tr').forEach(tr => tr.classList.remove('selected-row'));
+        const rows = Array.from(tbody.querySelectorAll('tr[data-licensee]'));
+        let match = null;
+        if (this.currentView === 'location' && this.selectedAddress) {
+            match = rows.find(r => r.dataset.licensee === this.selectedLicensee && (r.dataset.address ? decodeURIComponent(r.dataset.address) : '') === this.selectedAddress);
+        }
+        if (!match) {
+            match = rows.find(r => r.dataset.licensee === this.selectedLicensee);
+        }
+        if (match) {
+            match.classList.add('selected-row');
+        }
+    }
+
     getTrendIcon(trend) {
         switch(trend) {
             case 'up': return '↗';
@@ -717,6 +740,11 @@ class DispensaryDashboard {
             dispensary = this.currentDataset.find(d => d.licensee === licensee || d.company_name === licensee);
         }
         if (!dispensary) return;
+
+        // Track selection and highlight matching table row
+        this.selectedLicensee = dispensary.licensee;
+        this.selectedAddress = this.currentView === 'location' ? dispensary.address : null;
+        this.highlightSelectedRow();
 
         // Update chart title
         const chartTitle = this.currentView === 'company' 
