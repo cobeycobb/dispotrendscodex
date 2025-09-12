@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Mexico Dispensary Territory Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem;
+        }
+
+        .nav-button {
+            padding: 0.75rem 1.5rem;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .nav-button:hover {
+            background: #5a67d8;
+        }
+
+        .nav-button.active {
+            background: #4c51bf;
+        }
+
+        .map-controls {
+            background: white;
+            margin: 1rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            align-items: end;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .control-group label {
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #333;
+        }
+
+        .control-group input,
+        .control-group select {
+            padding: 0.75rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        .control-group input:focus,
+        .control-group select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .trend-filters {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .trend-filter {
+            padding: 0.5rem 1rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 20px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+
+        .trend-filter.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .map-container {
+            background: white;
+            margin: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            height: calc(100vh - 300px);
+            min-height: 600px;
+        }
+
+        #nm-map {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        .legend h4 {
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 0.25rem 0;
+            font-size: 0.875rem;
+        }
+
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .legend-dot.up { background-color: #10b981; }
+        .legend-dot.down { background-color: #ef4444; }
+        .legend-dot.stable { background-color: #f59e0b; }
+
+        .stats-banner {
+            background: white;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            font-size: 0.875rem;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .controls-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .legend {
+                position: static;
+                margin: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Territory Map</h1>
+        <p>Interactive map for sales territory planning and market analysis</p>
+    </div>
+
+    <div class="nav-buttons">
+        <a href="index.html" class="nav-button">📊 Dashboard</a>
+        <a href="map.html" class="nav-button active">🗺️ Territory Map</a>
+    </div>
+
+    <div class="map-controls">
+        <div class="controls-grid">
+            <div class="control-group">
+                <label for="search">Search Dispensary</label>
+                <input type="text" id="search" placeholder="Search by name or address...">
+            </div>
+            <div class="control-group">
+                <label for="region-filter">Filter by Region</label>
+                <select id="region-filter">
+                    <option value="">All Regions</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="city-filter">Filter by City</label>
+                <select id="city-filter">
+                    <option value="">All Cities</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label>Trend Direction</label>
+                <div class="trend-filters">
+                    <div class="trend-filter active" data-trend="all">All</div>
+                    <div class="trend-filter" data-trend="up">Up ↗</div>
+                    <div class="trend-filter" data-trend="down">Down ↘</div>
+                    <div class="trend-filter" data-trend="stable">Stable →</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-banner">
+        <span id="map-results-count">Loading dispensaries...</span>
+    </div>
+
+    <div class="map-container">
+        <div id="nm-map"></div>
+        
+        <div class="legend">
+            <h4>Dispensary Trends</h4>
+            <div class="legend-item">
+                <div class="legend-dot up"></div>
+                <span>Trending Up</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-dot down"></div>
+                <span>Trending Down</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-dot stable"></div>
+                <span>Stable</span>
+            </div>
+            <div style="margin-top: 0.5rem; font-size: 0.75rem; color: #666;">
+                Marker size = Sales volume
+            </div>
+        </div>
+    </div>
+
+    <script src="map.js?v=1726064400"></script>
+</body>
+</html>
