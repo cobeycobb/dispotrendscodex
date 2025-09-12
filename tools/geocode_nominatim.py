@@ -101,27 +101,30 @@ def main():
         city = (r.get('city') or '').strip()
         zip_code = (r.get('zip') or '').strip()
 
+        requested = False
         # Skip if already cached
         if key_zip in cache or key_no_zip in cache:
-            continue
-
-        query = normalize_query(address, city, zip_code)
-        try:
-            result = nominatim_search(query)
-        except Exception as e:
-            print(f"[{i}/{len(filtered)}] ERROR: {query} -> {e}")
-            continue
-
-        if not result:
-            print(f"[{i}/{len(filtered)}] NOT FOUND: {query}")
+            pass
         else:
-            cache[key_no_zip] = result
-            if key_zip:
-                cache[key_zip] = result
-            geocoded += 1
-            print(f"[{i}/{len(filtered)}] OK: {query} -> {result['lat']:.6f}, {result['lng']:.6f}")
+            query = normalize_query(address, city, zip_code)
+            try:
+                result = nominatim_search(query)
+                requested = True
+            except Exception as e:
+                print(f"[{i}/{len(filtered)}] ERROR: {query} -> {e}")
+                result = None
 
-        time.sleep(args.sleep)
+            if not result:
+                print(f"[{i}/{len(filtered)}] NOT FOUND: {query}")
+            else:
+                cache[key_no_zip] = result
+                if key_zip:
+                    cache[key_zip] = result
+                geocoded += 1
+                print(f"[{i}/{len(filtered)}] OK: {query} -> {result['lat']:.6f}, {result['lng']:.6f}")
+
+        if requested:
+            time.sleep(args.sleep)
 
     with open(args.output, 'w') as f:
         json.dump(cache, f, indent=2)

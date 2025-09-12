@@ -498,8 +498,9 @@ class DispensaryDashboard {
             
             if (this.currentView === 'location') {
                 // Location view (original)
+                const addrEnc = encodeURIComponent(item.address || '');
                 return `
-                    <tr data-licensee="${item.licensee}" style="cursor: pointer;">
+                    <tr data-licensee="${item.licensee}" data-address="${addrEnc}" style="cursor: pointer;">
                         <td>
                             <div style="font-weight: 500;">${this.truncateText(item.licensee, 40)}</div>
                             <div style="font-size: 0.85rem; color: #666;">${this.truncateText(item.address, 35)}</div>
@@ -569,7 +570,8 @@ class DispensaryDashboard {
         tbody.querySelectorAll('tr[data-licensee]').forEach(row => {
             row.addEventListener('click', () => {
                 const licensee = row.dataset.licensee;
-                this.showDispensaryChart(licensee);
+                const addr = row.dataset.address ? decodeURIComponent(row.dataset.address) : undefined;
+                this.showDispensaryChart(licensee, addr);
             });
         });
 
@@ -699,14 +701,27 @@ class DispensaryDashboard {
         ctx.fill();
     }
 
-    showDispensaryChart(licensee) {
-        const dispensary = this.currentDataset.find(d => d.licensee === licensee);
+    showDispensaryChart(licensee, address) {
+        let dispensary = null;
+        if (this.currentView === 'location') {
+            // Try to match both licensee and address when provided
+            if (address) {
+                dispensary = this.currentDataset.find(d => d.licensee === licensee && d.address === address);
+            }
+            // Fallback: first match by licensee
+            if (!dispensary) {
+                dispensary = this.currentDataset.find(d => d.licensee === licensee);
+            }
+        } else {
+            // Company view: match by company name/licensee
+            dispensary = this.currentDataset.find(d => d.licensee === licensee || d.company_name === licensee);
+        }
         if (!dispensary) return;
 
         // Update chart title
         const chartTitle = this.currentView === 'company' 
             ? dispensary.company_name + ' (All Locations)'
-            : dispensary.licensee;
+            : `${dispensary.licensee} — ${dispensary.address}`;
         document.querySelector('.chart-title').textContent = this.truncateText(chartTitle, 35);
         
         // Hide placeholder and show chart
@@ -865,7 +880,7 @@ class DispensaryDashboard {
             
             // Click handler to select dispensary
             marker.on('click', () => {
-                this.showDispensaryChart(dispensary.licensee);
+                this.showDispensaryChart(dispensary.licensee, dispensary.address);
             });
             
             this.markers.push(marker);
