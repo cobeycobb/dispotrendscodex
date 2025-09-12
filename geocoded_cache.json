@@ -1070,5 +1070,341 @@
   "806 Old Coors Drive SW, Albuquerque 87121.0": {
     "lat": 35.0714787,
     "lng": -106.6995097
+  },
+  "100 Alameda Street, Santa Fe": {
+    "lat": 35.685047,
+    "lng": -105.940334
+  },
+  "100 Alameda Street, Santa Fe 87501.0": {
+    "lat": 35.685047,
+    "lng": -105.940334
+  },
+  "1089 S. St. Francis Drive, Santa Fe": {
+    "lat": 35.6748184,
+    "lng": -105.9531655
+  },
+  "1089 S. St. Francis Drive, Santa Fe 87505.0": {
+    "lat": 35.6748184,
+    "lng": -105.9531655
+  },
+  "1161 Siler rd, Santa Fe": {
+    "lat": 35.6612193,
+    "lng": -105.9953143
+  },
+  "1161 Siler rd, Santa Fe 87507.0": {
+    "lat": 35.6612193,
+    "lng": -105.9953143
+  },
+  "121 Sandoval St, Santa Fe": {
+    "lat": 35.6867871,
+    "lng": -105.941965
+  },
+  "121 Sandoval St, Santa Fe 87501.0": {
+    "lat": 35.6867871,
+    "lng": -105.941965
+  },
+  "128 W Palace Ave, Santa Fe": {
+    "lat": 35.6880628,
+    "lng": -105.940033
+  },
+  "128 W Palace Ave, Santa Fe 87501.0": {
+    "lat": 35.6880628,
+    "lng": -105.940033
+  },
+  "1320 Luana St, Santa Fe": {
+    "lat": 35.6616705,
+    "lng": -105.9832225
+  },
+  "1320 Luana St, Santa Fe 87505.0": {
+    "lat": 35.6616705,
+    "lng": -105.9832225
+  },
+  "1592 San Mateo Lane, Santa Fe": {
+    "lat": 35.6643071,
+    "lng": -105.9618966
+  },
+  "1592 San Mateo Lane, Santa Fe 87505.0": {
+    "lat": 35.6643071,
+    "lng": -105.9618966
+  },
+  "1710 Cerrillos Rd, Santa Fe": {
+    "lat": 35.6665444,
+    "lng": -105.969869
+  },
+  "1710 Cerrillos Rd, Santa Fe 87505.0": {
+    "lat": 35.6665444,
+    "lng": -105.969869
+  },
+  "1829 Cerrillos Road, Santa Fe": {
+    "lat": 35.6651463,
+    "lng": -105.973094
+  },
+  "1829 Cerrillos Road, Santa Fe 87505.0": {
+    "lat": 35.6651463,
+    "lng": -105.973094
+  },
+  "1900 Cerrillos Rd, Santa Fe": {
+    "lat": 35.6527391,
+    "lng": -105.9957223
+  },
+  "1900 Cerrillos Rd, Santa Fe 87505.0": {
+    "lat": 35.6527391,
+    "lng": -105.9957223
+  },
+  "1907 St. Michaels Drive, Santa Fe": {
+    "lat": 35.6598663,
+    "lng": -105.9689195
+  },
+  "1907 St. Michaels Drive, Santa Fe 87505.0": {
+    "lat": 35.6598663,
+    "lng": -105.9689195
+  },
+  "220 N. Guadalupe Street, Santa Fe": {
+    "lat": 35.6896704,
+    "lng": -105.9442387
+  },
+  "220 N. Guadalupe Street, Santa Fe 87507.0": {
+    "lat": 35.6896704,
+    "lng": -105.9442387
+  },
+  "220 Shelby St, Santa Fe": {
+    "lat": 35.6858228,
+    "lng": -105.9385532
+  },
+  "220 Shelby St, Santa Fe 87501.0": {
+    "lat": 35.6858228,
+    "lng": -105.9385532
+  },
+  "24 Bisbee Ct., Santa Fe": {
+    "lat": 35.5942104,
+    "lng": -106.0397409
+  },
+  "24 Bisbee Ct., Santa Fe 87508.0": {
+    "lat": 35.5942104,
+    "lng": -106.0397409
+  },
+  "2641 B Cerrillos Rd, Santa Fe": {
+    "lat": 35.6527391,
+    "lng": -105.9957223
+  },
+  "2641 B Cerrillos Rd, Santa Fe 87505.0": {
+    "lat": 35.6527391,
+    "lng": -105.9957223
+  },
+  "2903 Agua Fria St, Santa Fe": {
+    "lat": 35.6614032,
+    "lng": -106.0014879
+  },
+  "2903 Agua Fria St, Santa Fe 87507.0": {
+    "lat": 35.6614032,
+    "lng": -106.0014879
+  },
+  "3256 Cerrillos Rd, Santa Fe": {
+    "lat": 35.6505161,
+    "lng": -105.9991457
+  },
+  "3256 Cerrillos Rd, Santa Fe 87507.0": {
+    "lat": 35.6505161,
+    "lng": -105.9991457
+  },
+  "3258 Cerrillos Rd, Santa Fe": {
+    "lat": 35.6507211,
+    "lng": -105.9983599
+  },
+  "3258 Cerrillos Rd, Santa Fe 87507.0": {
+    "lat": 35.6507211,
+    "lng": -105.9983599
+  },
+  "3354 Cerrillos Rd, Santa Fe": {
+    "lat": 35.648222,
+    "lng": -106.002908
+  },
+  "3354 Cerrillos Rd, Santa Fe 87507.0": {
+    "lat": 35.648222,
+    "lng": -106.002908
+  },
+  "3501 Cerrillos Rd, Santa Fe": {
+    "lat": 35.6467409,
+    "lng": -106.0053359
+  },
+  "3501 Cerrillos Rd, Santa Fe 87507.0": {
+    "lat": 35.6467409,
+    "lng": -106.0053359
+  },
+  "403 W. Cordova Rd, Santa Fe": {
+    "lat": 35.6724653,
+    "lng": -105.9491313
+  },
+  "403 W. Cordova Rd, Santa Fe 87505.0": {
+    "lat": 35.6724653,
+    "lng": -105.9491313
+  },
+  "4641 Airport Rd, Santa Fe": {
+    "lat": 35.6385167,
+    "lng": -106.028489
+  },
+  "4641 Airport Rd, Santa Fe 87507.0": {
+    "lat": 35.6385167,
+    "lng": -106.028489
+  },
+  "5041 Main Street, Santa Fe": {
+    "lat": 35.6184418,
+    "lng": -106.0306865
+  },
+  "5041 Main Street, Santa Fe 87507.0": {
+    "lat": 35.6184418,
+    "lng": -106.0306865
+  },
+  "507 Old Santa Fe Trail, Santa Fe": {
+    "lat": 35.6811072,
+    "lng": -105.9375009
+  },
+  "507 Old Santa Fe Trail, Santa Fe 87505.0": {
+    "lat": 35.6811072,
+    "lng": -105.9375009
+  },
+  "604 N Guadalupe, Santa Fe": {
+    "lat": 35.694921,
+    "lng": -105.9509079
+  },
+  "604 N Guadalupe, Santa Fe 87501.0": {
+    "lat": 35.694921,
+    "lng": -105.9509079
+  },
+  "628 Old Las Vegas Hwy, Santa Fe": {
+    "lat": 35.5579944,
+    "lng": -105.876312
+  },
+  "628 Old Las Vegas Hwy, Santa Fe 87508.0": {
+    "lat": 35.5579944,
+    "lng": -105.876312
+  },
+  "68 Cities of Gold Rd, Santa Fe": {
+    "lat": 35.8842541,
+    "lng": -106.0140197
+  },
+  "68 Cities of Gold Rd, Santa Fe 87506.0": {
+    "lat": 35.8842541,
+    "lng": -106.0140197
+  },
+  "7 Avenida Vista Grande, Santa Fe": {
+    "lat": 35.5387122,
+    "lng": -105.891649
+  },
+  "7 Avenida Vista Grande, Santa Fe 87508.0": {
+    "lat": 35.5387122,
+    "lng": -105.891649
+  },
+  "7 Caliente Rd, Santa Fe": {
+    "lat": 35.5359732,
+    "lng": -105.8905905
+  },
+  "7 Caliente Rd, Santa Fe 87507.0": {
+    "lat": 35.5359732,
+    "lng": -105.8905905
+  },
+  "802 Early St, Santa Fe": {
+    "lat": 35.678184,
+    "lng": -105.9523921
+  },
+  "802 Early St, Santa Fe 87505.0": {
+    "lat": 35.678184,
+    "lng": -105.9523921
+  },
+  "820 Mercer St, Santa Fe": {
+    "lat": 35.6790352,
+    "lng": -105.9532226
+  },
+  "820 Mercer St, Santa Fe 87505.0": {
+    "lat": 35.6790352,
+    "lng": -105.9532226
+  },
+  "839 Paseo De Peralta, Santa Fe": {
+    "lat": 35.6855632,
+    "lng": -105.9337139
+  },
+  "839 Paseo De Peralta, Santa Fe 87501.0": {
+    "lat": 35.6855632,
+    "lng": -105.9337139
+  },
+  "901 Early Street, Santa Fe": {
+    "lat": 35.6763687,
+    "lng": -105.9520151
+  },
+  "901 Early Street, Santa Fe 87505.0": {
+    "lat": 35.6763687,
+    "lng": -105.9520151
+  },
+  "1228 Parkway Drive Unit D, Santa Fe": {
+    "lat": 35.6566006,
+    "lng": -105.9986272
+  },
+  "1228 Parkway Drive Unit D, Santa Fe 87507.0": {
+    "lat": 35.6566006,
+    "lng": -105.9986272
+  },
+  "2778 Agua Fria St Suite 5, Santa Fe": {
+    "lat": 35.6649887,
+    "lng": -105.9927955
+  },
+  "2778 Agua Fria St Suite 5, Santa Fe 87507.0": {
+    "lat": 35.6649887,
+    "lng": -105.9927955
+  },
+  "2859 Cerrillos Rd Unit 4, Santa Fe": {
+    "lat": 35.657241,
+    "lng": -105.9891312
+  },
+  "2859 Cerrillos Rd Unit 4, Santa Fe 87507.0": {
+    "lat": 35.657241,
+    "lng": -105.9891312
+  },
+  "300 Galisteo Street STE 201, Santa Fe": {
+    "lat": 35.6852292,
+    "lng": -105.9422154
+  },
+  "300 Galisteo Street STE 201, Santa Fe 87501.0": {
+    "lat": 35.6852292,
+    "lng": -105.9422154
+  },
+  "3140 Cerrillos Rd Ste L, Santa Fe": {
+    "lat": 35.6527997,
+    "lng": -105.9949016
+  },
+  "3140 Cerrillos Rd Ste L, Santa Fe 87507.0": {
+    "lat": 35.6527997,
+    "lng": -105.9949016
+  },
+  "3530 Zafarano Dr Ste C5, Santa Fe": {
+    "lat": 35.6402584,
+    "lng": -106.011826
+  },
+  "3530 Zafarano Dr Ste C5, Santa Fe 87507.0": {
+    "lat": 35.6402584,
+    "lng": -106.011826
+  },
+  "3963 Cerrillos Rd Ste B, Santa Fe": {
+    "lat": 35.6527391,
+    "lng": -105.9957223
+  },
+  "3963 Cerrillos Rd Ste B, Santa Fe 87507.0": {
+    "lat": 35.6527391,
+    "lng": -105.9957223
+  },
+  "607 Cerrillos Rd Suite A, Santa Fe": {
+    "lat": 35.6810933,
+    "lng": -105.9461779
+  },
+  "607 Cerrillos Rd Suite A, Santa Fe 87505.0": {
+    "lat": 35.6810933,
+    "lng": -105.9461779
+  },
+  "7502 Mallard Way B, Santa Fe": {
+    "lat": 35.6356517,
+    "lng": -106.0653414
+  },
+  "7502 Mallard Way B, Santa Fe 87507.0": {
+    "lat": 35.6356517,
+    "lng": -106.0653414
   }
 }

@@ -61,6 +61,29 @@ def normalize_query(address: str, city: str, zip_code: str) -> str:
     query = re.sub(r"\s+", " ", query)
     return query.strip(' ,')
 
+def generate_address_variants(address: str) -> list:
+    """Generate relaxed address variants to improve geocoding hit rate.
+    Removes suite/unit identifiers and trailing letters.
+    """
+    import re
+    a = (address or '')
+    variants = []
+    base = a.strip()
+    variants.append(base)
+    # Remove Suite/Ste/Unit and following text
+    v = re.sub(r"\b(Suite|Ste\.?|Unit)\b.*", "", base, flags=re.IGNORECASE).strip(', ').strip()
+    if v and v not in variants:
+        variants.append(v)
+    # Remove trailing single letter (e.g., "Mallard Way B")
+    v2 = re.sub(r"\s+[A-Za-z]$", "", v or base).strip(', ').strip()
+    if v2 and v2 not in variants:
+        variants.append(v2)
+    # Remove content after comma (keep street only)
+    v3 = (v2 or base).split(',')[0].strip()
+    if v3 and v3 not in variants:
+        variants.append(v3)
+    return variants
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--input', default='address_keys.csv')
@@ -106,16 +129,25 @@ def main():
         if key_zip in cache or key_no_zip in cache:
             pass
         else:
-            query = normalize_query(address, city, zip_code)
-            try:
-                result = nominatim_search(query)
-                requested = True
-            except Exception as e:
-                print(f"[{i}/{len(filtered)}] ERROR: {query} -> {e}")
-                result = None
+            # Try progressive variants of the address
+            variants = generate_address_variants(address)
+            tried = []
+            result = None
+            for addr_variant in variants:
+                query = normalize_query(addr_variant, city, zip_code)
+                tried.append(query)
+                try:
+                    result = nominatim_search(query)
+                    requested = True
+                except Exception as e:
+                    print(f"[{i}/{len(filtered)}] ERROR: {query} -> {e}")
+                    result = None
+                if result:
+                    break
+                time.sleep(args.sleep)
 
             if not result:
-                print(f"[{i}/{len(filtered)}] NOT FOUND: {query}")
+                print(f"[{i}/{len(filtered)}] NOT FOUND after variants:\n  " + "\n  ".join(tried))
             else:
                 cache[key_no_zip] = result
                 if key_zip:
