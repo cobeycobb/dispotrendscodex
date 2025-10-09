@@ -72,44 +72,52 @@ def extract_month_year(filename):
     return None
 
 def process_all_files():
-    """Process all Excel files and create consolidated dataset"""
+    """Process all Excel and CSV files and create consolidated dataset"""
     all_data = []
-    
-    # Get all Excel files
-    excel_files = glob.glob('dispodata/*.xlsx') + glob.glob('dispodata/*.xls')
-    
+
+    # Get all Excel and CSV files
+    excel_files = glob.glob('dispodata/*.xlsx') + glob.glob('dispodata/*.xls') + glob.glob('dispodata/*.csv')
+
     print(f"Processing {len(excel_files)} files...")
-    
+
     for file_path in sorted(excel_files):
         filename = os.path.basename(file_path)
         month_year = extract_month_year(filename)
-        
+
         if not month_year:
             print(f"Warning: Could not extract date from {filename}")
             continue
-            
+
         print(f"Processing {filename} -> {month_year}")
-        
+
         try:
-            # Read Excel file
-            df = pd.read_excel(file_path)
-            
+            # Read file (Excel or CSV)
+            if file_path.endswith('.csv'):
+                df = pd.read_csv(file_path)
+                # Clean currency formatting from CSV files (remove $ and commas)
+                for col in ['Medical Sales', 'Adult-Use Sales', 'Total Sales']:
+                    if col in df.columns:
+                        df[col] = df[col].replace(r'[\$,]', '', regex=True).replace('', '0')
+                        df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
+            else:
+                df = pd.read_excel(file_path)
+
             # Add month column
             df['Month'] = month_year
-            
+
             # Clean up data - remove rows with empty licensee names or total rows
             df = df.dropna(subset=['Licensee'])  # Remove rows with NaN licensee
             df = df[df['Licensee'].str.strip() != '']  # Remove rows with empty licensee
             df = df[~df['Licensee'].str.contains('TOTAL', case=False, na=False)]  # Remove total rows
-            
+
             # Fill remaining NaN values with 0
             df = df.fillna(0)
-            
+
             # Standardize column names
             df.columns = df.columns.str.strip()
-            
+
             all_data.append(df)
-            
+
         except Exception as e:
             print(f"Error processing {filename}: {e}")
     
