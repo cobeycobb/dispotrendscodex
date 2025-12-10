@@ -1406,5 +1406,2509 @@
   "7502 Mallard Way B, Santa Fe 87507.0": {
     "lat": 35.6356517,
     "lng": -106.0653414
+  },
+  "1016 Juan Tabo Blvd. NE Ste. J, Albuquerque": {
+    "lat": 35.0886746,
+    "lng": -106.5149596
+  },
+  "1016 Juan Tabo Blvd. NE Ste. J, Albuquerque 87112.0": {
+    "lat": 35.0886746,
+    "lng": -106.5149596
+  },
+  "10200 Corrales Rd NW Ste E-2, Albuquerque": {
+    "lat": 35.2037193,
+    "lng": -106.6459715
+  },
+  "10200 Corrales Rd NW Ste E-2, Albuquerque 87114.0": {
+    "lat": 35.2037193,
+    "lng": -106.6459715
+  },
+  "121 Eubank NE Ste A, Albuquerque": {
+    "lat": 35.0725432,
+    "lng": -106.532477
+  },
+  "121 Eubank NE Ste A, Albuquerque 87123.0": {
+    "lat": 35.0725432,
+    "lng": -106.532477
+  },
+  "1220 Eubank Blvd NE Ste B, Albuquerque": {
+    "lat": 35.0933893,
+    "lng": -106.5324819
+  },
+  "1220 Eubank Blvd NE Ste B, Albuquerque 87112.0": {
+    "lat": 35.0933893,
+    "lng": -106.5324819
+  },
+  "12611 Montgomery Blvd NE Suite A10, Albuquerque": {
+    "lat": 35.1313383,
+    "lng": -106.496329
+  },
+  "12611 Montgomery Blvd NE Suite A10, Albuquerque 87111.0": {
+    "lat": 35.1313383,
+    "lng": -106.496329
+  },
+  "1300 Juan Tabo ne suite C, Albuquerque": {
+    "lat": 35.093706,
+    "lng": -106.515182
+  },
+  "1300 Juan Tabo ne suite C, Albuquerque 87112.0": {
+    "lat": 35.093706,
+    "lng": -106.515182
+  },
+  "1301 Rio Grande Blvd NW Ste 2, Albuquerque": {
+    "lat": 35.107982,
+    "lng": -106.671521
+  },
+  "1301 Rio Grande Blvd NW Ste 2, Albuquerque 87104.0": {
+    "lat": 35.107982,
+    "lng": -106.671521
+  },
+  "13025 Lomas Blvd NE Ste B, Albuquerque": {
+    "lat": 35.0864926,
+    "lng": -106.5027095
+  },
+  "13025 Lomas Blvd NE Ste B, Albuquerque 87112.0": {
+    "lat": 35.0864926,
+    "lng": -106.5027095
+  },
+  "1330 San Pedro Dr NE Suite 103, Albuquerque": {
+    "lat": 35.0902951,
+    "lng": -106.577434
+  },
+  "1330 San Pedro Dr NE Suite 103, Albuquerque 87110.0": {
+    "lat": 35.0902951,
+    "lng": -106.577434
+  },
+  "1340 Broadway Blvd NE Ste A, Albuquerque": {
+    "lat": 35.0962958,
+    "lng": -106.642121
+  },
+  "1340 Broadway Blvd NE Ste A, Albuquerque 87102.0": {
+    "lat": 35.0962958,
+    "lng": -106.642121
+  },
+  "13600 Copper Ave NE Ste C, Albuquerque": {
+    "lat": 35.0790305,
+    "lng": -106.4964742
+  },
+  "13600 Copper Ave NE Ste C, Albuquerque 87123.0": {
+    "lat": 35.0790305,
+    "lng": -106.4964742
+  },
+  "1514 Coors Blvd Ste B, Albuquerque": {
+    "lat": 35.1021123,
+    "lng": -106.7065495
+  },
+  "1514 Coors Blvd Ste B, Albuquerque 87121.0": {
+    "lat": 35.1021123,
+    "lng": -106.7065495
+  },
+  "1605 Isleta Blvd Ste D, Albuquerque": {
+    "lat": 35.0262911,
+    "lng": -106.680449
+  },
+  "1605 Isleta Blvd Ste D, Albuquerque 87105.0": {
+    "lat": 35.0262911,
+    "lng": -106.680449
+  },
+  "1606 Central Ave NE Ste 101, Albuquerque": {
+    "lat": 35.0816881,
+    "lng": -106.6284815
+  },
+  "1606 Central Ave NE Ste 101, Albuquerque 87106.0": {
+    "lat": 35.0816881,
+    "lng": -106.6284815
+  },
+  "1698 Rio Bravo Blvd SW Ste B, Albuquerque": {
+    "lat": 35.027,
+    "lng": -106.6827865
+  },
+  "1698 Rio Bravo Blvd SW Ste B, Albuquerque 87105.0": {
+    "lat": 35.027,
+    "lng": -106.6827865
+  },
+  "1720 Juan Tabo Suite E, Albuquerque": {
+    "lat": 35.1001016,
+    "lng": -106.5153069
+  },
+  "1720 Juan Tabo Suite E, Albuquerque 87112.0": {
+    "lat": 35.1001016,
+    "lng": -106.5153069
+  },
+  "200 Coors Blvd NW Suite D, Albuquerque": {
+    "lat": 35.081823,
+    "lng": -106.7105411
+  },
+  "200 Coors Blvd NW Suite D, Albuquerque 87121.0": {
+    "lat": 35.081823,
+    "lng": -106.7105411
+  },
+  "2000 Carlisle Blvd NE Suite B, Albuquerque": {
+    "lat": 35.1012293,
+    "lng": -106.6038305
+  },
+  "2000 Carlisle Blvd NE Suite B, Albuquerque 87110.0": {
+    "lat": 35.1012293,
+    "lng": -106.6038305
+  },
+  "2035 Isleta Blvd SW Ste 1, Albuquerque": {
+    "lat": 35.0262911,
+    "lng": -106.680449
+  },
+  "2035 Isleta Blvd SW Ste 1, Albuquerque 87105.0": {
+    "lat": 35.0262911,
+    "lng": -106.680449
+  },
+  "2105 Vista Oeste NW STE D, Albuquerque": {
+    "lat": 35.1087771,
+    "lng": -106.729837
+  },
+  "2105 Vista Oeste NW STE D, Albuquerque 87120.0": {
+    "lat": 35.1087771,
+    "lng": -106.729837
+  },
+  "2117 Menaul Blvd NE Suite A, Albuquerque": {
+    "lat": 35.1096139,
+    "lng": -106.6194928
+  },
+  "2117 Menaul Blvd NE Suite A, Albuquerque 87107.0": {
+    "lat": 35.1096139,
+    "lng": -106.6194928
+  },
+  "214 Menaul Unit B C, Albuquerque": {
+    "lat": 35.1101251,
+    "lng": -106.6410001
+  },
+  "214 Menaul Unit B C, Albuquerque 87107.0": {
+    "lat": 35.1101251,
+    "lng": -106.6410001
+  },
+  "220 Copper Avenue NW, Suite 110, Unit 4, Albuquerque": {
+    "lat": 35.0851159,
+    "lng": -106.6499418
+  },
+  "220 Copper Avenue NW, Suite 110, Unit 4, Albuquerque 87102.0": {
+    "lat": 35.0851159,
+    "lng": -106.6499418
+  },
+  "2201 Louisiana, Suite E, Albuquerque": {
+    "lat": 35.1041633,
+    "lng": -106.5693029
+  },
+  "2201 Louisiana, Suite E, Albuquerque 87110.0": {
+    "lat": 35.1041633,
+    "lng": -106.5693029
+  },
+  "2400 Juan Tabo Blvd NE Suite B, Albuquerque": {
+    "lat": 35.1094581,
+    "lng": -106.5150789
+  },
+  "2400 Juan Tabo Blvd NE Suite B, Albuquerque 87112.0": {
+    "lat": 35.1094581,
+    "lng": -106.5150789
+  },
+  "2400 rio grande blvd nw suite B, Albuquerque": {
+    "lat": 35.1178469,
+    "lng": -106.6750283
+  },
+  "2400 rio grande blvd nw suite B, Albuquerque 87104.0": {
+    "lat": 35.1178469,
+    "lng": -106.6750283
+  },
+  "2501 San Pedro Dr Ne Ste 114, Albuquerque": {
+    "lat": 35.107416,
+    "lng": -106.577681
+  },
+  "2501 San Pedro Dr Ne Ste 114, Albuquerque 87110.0": {
+    "lat": 35.107416,
+    "lng": -106.577681
+  },
+  "2501 San Pedro Dr NE Suite 110, Albuquerque": {
+    "lat": 35.107416,
+    "lng": -106.577681
+  },
+  "2501 San Pedro Dr NE Suite 110, Albuquerque 87110.0": {
+    "lat": 35.107416,
+    "lng": -106.577681
+  },
+  "251 98th St Ste A  B, Albuquerque": {
+    "lat": 35.0767886,
+    "lng": -106.7451276
+  },
+  "251 98th St Ste A  B, Albuquerque 87121.0": {
+    "lat": 35.0767886,
+    "lng": -106.7451276
+  },
+  "2621 San Mateo Blvd NE Ste B, Albuquerque": {
+    "lat": 35.109617,
+    "lng": -106.5864347
+  },
+  "2621 San Mateo Blvd NE Ste B, Albuquerque 87110.0": {
+    "lat": 35.109617,
+    "lng": -106.5864347
+  },
+  "2720 Central Ave Southeast F, Albuquerque": {
+    "lat": 35.0807292,
+    "lng": -106.6149139
+  },
+  "2720 Central Ave Southeast F, Albuquerque 87106.0": {
+    "lat": 35.0807292,
+    "lng": -106.6149139
+  },
+  "2723 San Mateo Blvd NE, Suite B, Albuquerque": {
+    "lat": 35.1114727,
+    "lng": -106.5864234
+  },
+  "2723 San Mateo Blvd NE, Suite B, Albuquerque 87110.0": {
+    "lat": 35.1114727,
+    "lng": -106.5864234
+  },
+  "3000 San Pedro Drive NE Suite B, Albuquerque": {
+    "lat": 35.1169996,
+    "lng": -106.5773699
+  },
+  "3000 San Pedro Drive NE Suite B, Albuquerque 87110.0": {
+    "lat": 35.1169996,
+    "lng": -106.5773699
+  },
+  "3094 San Mateo Blvd NE Ste 3100B, Albuquerque": {
+    "lat": 35.1170619,
+    "lng": -106.5863168
+  },
+  "3094 San Mateo Blvd NE Ste 3100B, Albuquerque 87110.0": {
+    "lat": 35.1170619,
+    "lng": -106.5863168
+  },
+  "3100 Suite B San Mateo Blvd, Albuquerque": {
+    "lat": 35.0945156,
+    "lng": -106.6101412
+  },
+  "3100 Suite B San Mateo Blvd, Albuquerque 87110.0": {
+    "lat": 35.0945156,
+    "lng": -106.6101412
+  },
+  "315 San Pedro NE Suite C, Albuquerque": {
+    "lat": 35.0811176,
+    "lng": -106.577248
+  },
+  "315 San Pedro NE Suite C, Albuquerque 87108.0": {
+    "lat": 35.0811176,
+    "lng": -106.577248
+  },
+  "3250 Coors Blvd NW Suite A, Albuquerque": {
+    "lat": 35.1197657,
+    "lng": -106.7002631
+  },
+  "3250 Coors Blvd NW Suite A, Albuquerque 87120.0": {
+    "lat": 35.1197657,
+    "lng": -106.7002631
+  },
+  "3426 Vassar Dr. NE Ste B, Albuquerque": {
+    "lat": 35.1190879,
+    "lng": -106.615052
+  },
+  "3426 Vassar Dr. NE Ste B, Albuquerque 87107.0": {
+    "lat": 35.1190879,
+    "lng": -106.615052
+  },
+  "3500 Menaul Blvd NE Ste 6, Albuquerque": {
+    "lat": 35.1091654,
+    "lng": -106.6051935
+  },
+  "3500 Menaul Blvd NE Ste 6, Albuquerque 87107.0": {
+    "lat": 35.1091654,
+    "lng": -106.6051935
+  },
+  "3600 Cutler Avenue NE Unit 10, Albuquerque": {
+    "lat": 35.1058181,
+    "lng": -106.6031958
+  },
+  "3600 Cutler Avenue NE Unit 10, Albuquerque 87110.0": {
+    "lat": 35.1058181,
+    "lng": -106.6031958
+  },
+  "3700 Ellison Dr NW Ste E-2, Albuquerque": {
+    "lat": 35.205798,
+    "lng": -106.655944
+  },
+  "3700 Ellison Dr NW Ste E-2, Albuquerque 87114.0": {
+    "lat": 35.205798,
+    "lng": -106.655944
+  },
+  "3701 San Mateo Blvd NE, Suite G, Albuquerque": {
+    "lat": 35.124328,
+    "lng": -106.586579
+  },
+  "3701 San Mateo Blvd NE, Suite G, Albuquerque 87110.0": {
+    "lat": 35.124328,
+    "lng": -106.586579
+  },
+  "3730 Coors Blvd NW Ste B, Albuquerque": {
+    "lat": 35.125068,
+    "lng": -106.7014272
+  },
+  "3730 Coors Blvd NW Ste B, Albuquerque 87120.0": {
+    "lat": 35.125068,
+    "lng": -106.7014272
+  },
+  "4000 San Mateo Blvd NE Ste A, Albuquerque": {
+    "lat": 35.1268025,
+    "lng": -106.5859683
+  },
+  "4000 San Mateo Blvd NE Ste A, Albuquerque 87110.0": {
+    "lat": 35.1268025,
+    "lng": -106.5859683
+  },
+  "4001 San Mateo Blvd NE Ste C, Albuquerque": {
+    "lat": 35.129164,
+    "lng": -106.586599
+  },
+  "4001 San Mateo Blvd NE Ste C, Albuquerque 87110.0": {
+    "lat": 35.129164,
+    "lng": -106.586599
+  },
+  "401 Eubank Blvd SE Ste. D, Albuquerque": {
+    "lat": 35.0688681,
+    "lng": -106.5328585
+  },
+  "401 Eubank Blvd SE Ste. D, Albuquerque 87123.0": {
+    "lat": 35.0688681,
+    "lng": -106.5328585
+  },
+  "416 Yale Blvd SE Suite B, Albuquerque": {
+    "lat": 35.0744663,
+    "lng": -106.6217708
+  },
+  "416 Yale Blvd SE Suite B, Albuquerque 87106.0": {
+    "lat": 35.0744663,
+    "lng": -106.6217708
+  },
+  "417 Tramway Blvd. NE, Suite 2, Albuquerque": {
+    "lat": 35.0715528,
+    "lng": -106.4962845
+  },
+  "417 Tramway Blvd. NE, Suite 2, Albuquerque 87123.0": {
+    "lat": 35.0715528,
+    "lng": -106.4962845
+  },
+  "4201 Central Avenue NW, Suite B-6, Albuquerque": {
+    "lat": 35.0853794,
+    "lng": -106.688096
+  },
+  "4201 Central Avenue NW, Suite B-6, Albuquerque 87105.0": {
+    "lat": 35.0853794,
+    "lng": -106.688096
+  },
+  "4411 Montano Rd NW, Suite F, Albuquerque": {
+    "lat": 35.1507607,
+    "lng": -106.6882653
+  },
+  "4411 Montano Rd NW, Suite F, Albuquerque 87120.0": {
+    "lat": 35.1507607,
+    "lng": -106.6882653
+  },
+  "4501 4th Street NW, Suite F, Albuquerque": {
+    "lat": 35.1291349,
+    "lng": -106.6435771
+  },
+  "4501 4th Street NW, Suite F, Albuquerque 87107.0": {
+    "lat": 35.1291349,
+    "lng": -106.6435771
+  },
+  "4601 Paradise Blvd. Suite H, Albuquerque": {
+    "lat": 35.183922,
+    "lng": -106.673699
+  },
+  "4601 Paradise Blvd. Suite H, Albuquerque 87114.0": {
+    "lat": 35.183922,
+    "lng": -106.673699
+  },
+  "516 Chama St NE Ste B, Albuquerque": {
+    "lat": 35.0839671,
+    "lng": -106.56626
+  },
+  "516 Chama St NE Ste B, Albuquerque 87108.0": {
+    "lat": 35.0839671,
+    "lng": -106.56626
+  },
+  "5212 4th St NW Suite A, Albuquerque": {
+    "lat": 35.1353816,
+    "lng": -106.6417823
+  },
+  "5212 4th St NW Suite A, Albuquerque 87107.0": {
+    "lat": 35.1353816,
+    "lng": -106.6417823
+  },
+  "5231 San Mateo Blvd NE Suite A, Albuquerque": {
+    "lat": 35.141553,
+    "lng": -106.586553
+  },
+  "5231 San Mateo Blvd NE Suite A, Albuquerque 87109.0": {
+    "lat": 35.141553,
+    "lng": -106.586553
+  },
+  "5401 Lomas Blvd Ste A, Albuquerque": {
+    "lat": 35.087479,
+    "lng": -106.584655
+  },
+  "5401 Lomas Blvd Ste A, Albuquerque 87110.0": {
+    "lat": 35.087479,
+    "lng": -106.584655
+  },
+  "6010 Coors Blvd Ste 3, Albuquerque": {
+    "lat": 35.1493803,
+    "lng": -106.684492
+  },
+  "6010 Coors Blvd Ste 3, Albuquerque 87120.0": {
+    "lat": 35.1493803,
+    "lng": -106.684492
+  },
+  "6919 Montgomery Blvd NE, Suite B, Albuquerque": {
+    "lat": 35.130855,
+    "lng": -106.570537
+  },
+  "6919 Montgomery Blvd NE, Suite B, Albuquerque 87109.0": {
+    "lat": 35.130855,
+    "lng": -106.570537
+  },
+  "7610 Carmel NE, Ste. B, Albuquerque": {
+    "lat": 35.1767583,
+    "lng": -106.5586325
+  },
+  "7610 Carmel NE, Ste. B, Albuquerque 87122.0": {
+    "lat": 35.1767583,
+    "lng": -106.5586325
+  },
+  "8104 Wyoming, Albuquerque": {
+    "lat": 35.1744425,
+    "lng": -106.5598378
+  },
+  "8104 Wyoming, Albuquerque 87113.0": {
+    "lat": 35.1744425,
+    "lng": -106.5598378
+  },
+  "8110 Louisiana Blvd NE Suite D-1, Albuquerque": {
+    "lat": 35.1755445,
+    "lng": -106.5685941
+  },
+  "8110 Louisiana Blvd NE Suite D-1, Albuquerque 87113.0": {
+    "lat": 35.1755445,
+    "lng": -106.5685941
+  },
+  "818 San Mateo Boulevard Southeast, Albuquerque": {
+    "lat": 35.0684898,
+    "lng": -106.5862467
+  },
+  "818 San Mateo Boulevard Southeast, Albuquerque 87108.0": {
+    "lat": 35.0684898,
+    "lng": -106.5862467
+  },
+  "8367 Corona Loop NE, Albuquerque": {
+    "lat": 35.1794703,
+    "lng": -106.5978925
+  },
+  "8367 Corona Loop NE, Albuquerque 87113.0": {
+    "lat": 35.1794703,
+    "lng": -106.5978925
+  },
+  "8508 Central Ave SE, Albuquerque": {
+    "lat": 35.0739793,
+    "lng": -106.5525338
+  },
+  "8508 Central Ave SE, Albuquerque 87108.0": {
+    "lat": 35.0739793,
+    "lng": -106.5525338
+  },
+  "8512 Calle Alameda NE, Albuquerque": {
+    "lat": 35.179661,
+    "lng": -106.6080563
+  },
+  "8512 Calle Alameda NE, Albuquerque 87113.0": {
+    "lat": 35.179661,
+    "lng": -106.6080563
+  },
+  "8521 Golf Course Rd NW, Albuquerque": {
+    "lat": 35.1805637,
+    "lng": -106.6878546
+  },
+  "8521 Golf Course Rd NW, Albuquerque 87114.0": {
+    "lat": 35.1805637,
+    "lng": -106.6878546
+  },
+  "8715 Central Ave NW, Albuquerque": {
+    "lat": 35.0752771,
+    "lng": -106.7317082
+  },
+  "8715 Central Ave NW, Albuquerque 87121.0": {
+    "lat": 35.0752771,
+    "lng": -106.7317082
+  },
+  "8900 Central Ave SE, Albuquerque": {
+    "lat": 35.073588,
+    "lng": -106.548305
+  },
+  "8900 Central Ave SE, Albuquerque 87123.0": {
+    "lat": 35.073588,
+    "lng": -106.548305
+  },
+  "8917 Adams ST NE, Albuquerque": {
+    "lat": 35.1068633,
+    "lng": -106.5951238
+  },
+  "8917 Adams ST NE, Albuquerque 87113.0": {
+    "lat": 35.1068633,
+    "lng": -106.5951238
+  },
+  "8920 Menaul Blvd NE, Albuquerque": {
+    "lat": 35.1091042,
+    "lng": -106.5430209
+  },
+  "8920 Menaul Blvd NE, Albuquerque 87112.0": {
+    "lat": 35.1091042,
+    "lng": -106.5430209
+  },
+  "9012 Central Ave SE, Albuquerque": {
+    "lat": 35.0691055,
+    "lng": -106.5062045
+  },
+  "9012 Central Ave SE, Albuquerque 87123.0": {
+    "lat": 35.0691055,
+    "lng": -106.5062045
+  },
+  "915 Yale SE, Albuquerque": {
+    "lat": 35.0703174,
+    "lng": -106.6221891
+  },
+  "915 Yale SE, Albuquerque 87106.0": {
+    "lat": 35.0703174,
+    "lng": -106.6221891
+  },
+  "9237 4th St. NW, Albuquerque": {
+    "lat": 35.1864245,
+    "lng": -106.6198026
+  },
+  "9237 4th St. NW, Albuquerque 87114.0": {
+    "lat": 35.1864245,
+    "lng": -106.6198026
+  },
+  "9370 Coors Blvd NW Suite 600, Albuquerque": {
+    "lat": 35.1842044,
+    "lng": -106.6643229
+  },
+  "9370 Coors Blvd NW Suite 600, Albuquerque 87114.0": {
+    "lat": 35.1842044,
+    "lng": -106.6643229
+  },
+  "9402 Indian School Rd NE, Albuquerque": {
+    "lat": 35.101791,
+    "lng": -106.5401318
+  },
+  "9402 Indian School Rd NE, Albuquerque 87112.0": {
+    "lat": 35.101791,
+    "lng": -106.5401318
+  },
+  "9635 Menaul Blvd NE, Albuquerque": {
+    "lat": 35.1097887,
+    "lng": -106.533701
+  },
+  "9635 Menaul Blvd NE, Albuquerque 87112.0": {
+    "lat": 35.1097887,
+    "lng": -106.533701
+  },
+  "9800 Montgomery Blvd NE, Albuquerque": {
+    "lat": 35.1293442,
+    "lng": -106.5324527
+  },
+  "9800 Montgomery Blvd NE, Albuquerque 87110.0": {
+    "lat": 35.1293442,
+    "lng": -106.5324527
+  },
+  "9821 Montgomery Blvd, Albuquerque": {
+    "lat": 35.1307297,
+    "lng": -106.5319854
+  },
+  "9821 Montgomery Blvd, Albuquerque 87111.0": {
+    "lat": 35.1307297,
+    "lng": -106.5319854
+  },
+  "9880 Montgomery Blvd NE Ste C, Albuquerque": {
+    "lat": 35.1302455,
+    "lng": -106.5312524
+  },
+  "9880 Montgomery Blvd NE Ste C, Albuquerque 87111.0": {
+    "lat": 35.1302455,
+    "lng": -106.5312524
+  },
+  "9901 Lomas Blvd NE, Albuquerque": {
+    "lat": 35.0875313,
+    "lng": -106.5384615
+  },
+  "9901 Lomas Blvd NE, Albuquerque 87112.0": {
+    "lat": 35.0875313,
+    "lng": -106.5384615
+  },
+  "12999 Central Avenue, Albuquerque": {
+    "lat": 35.068893,
+    "lng": -106.503242
+  },
+  "12999 Central Avenue, Albuquerque 87123.0": {
+    "lat": 35.068893,
+    "lng": -106.503242
+  },
+  "3410 NM-528 105, Albuquerque": {
+    "lat": 35.2043832,
+    "lng": -106.6508605
+  },
+  "3410 NM-528 105, Albuquerque 87114.0": {
+    "lat": 35.2043832,
+    "lng": -106.6508605
+  },
+  "7601 San Pedro, Albuquerque": {
+    "lat": 35.165742,
+    "lng": -106.577683
+  },
+  "7601 San Pedro, Albuquerque 87109.0": {
+    "lat": 35.165742,
+    "lng": -106.577683
+  },
+  "8521 Golf Course Rd. SW Ste A, Albuquerque": {
+    "lat": 35.1805637,
+    "lng": -106.6878546
+  },
+  "8521 Golf Course Rd. SW Ste A, Albuquerque 87114.0": {
+    "lat": 35.1805637,
+    "lng": -106.6878546
+  },
+  "142 Daniel Dt, Santa Fe": {
+    "lat": 35.6908253,
+    "lng": -105.946063
+  },
+  "142 Daniel Dt, Santa Fe 87501.0": {
+    "lat": 35.6908253,
+    "lng": -105.946063
+  },
+  "1000 N Main, Las Cruces": {
+    "lat": 32.3930039,
+    "lng": -106.6976762
+  },
+  "1000 N Main, Las Cruces 88081.0": {
+    "lat": 32.3930039,
+    "lng": -106.6976762
+  },
+  "1025 El Paseo, Las Cruces": {
+    "lat": 32.299447,
+    "lng": -106.7730915
+  },
+  "1025 El Paseo, Las Cruces 88001.0": {
+    "lat": 32.299447,
+    "lng": -106.7730915
+  },
+  "1128 South Solano Drive, Las Cruces": {
+    "lat": 32.3013815,
+    "lng": -106.7629929
+  },
+  "1128 South Solano Drive, Las Cruces 88001.0": {
+    "lat": 32.3013815,
+    "lng": -106.7629929
+  },
+  "1201 South Solano Drive, Las Cruces": {
+    "lat": 32.300461,
+    "lng": -106.76252
+  },
+  "1201 South Solano Drive, Las Cruces 88001.0": {
+    "lat": 32.300461,
+    "lng": -106.76252
+  },
+  "1240 S Valley Dr Ste D, Las Cruces": {
+    "lat": 32.2941003,
+    "lng": -106.7869629
+  },
+  "1240 S Valley Dr Ste D, Las Cruces 88005.0": {
+    "lat": 32.2941003,
+    "lng": -106.7869629
+  },
+  "140 W Picacho Ave Unit C, Las Cruces": {
+    "lat": 32.3164871,
+    "lng": -106.7813019
+  },
+  "140 W Picacho Ave Unit C, Las Cruces 88005.0": {
+    "lat": 32.3164871,
+    "lng": -106.7813019
+  },
+  "1405 S. Valley Drive, Las Cruces": {
+    "lat": 32.2921236,
+    "lng": -106.7846091
+  },
+  "1405 S. Valley Drive, Las Cruces 88005.0": {
+    "lat": 32.2921236,
+    "lng": -106.7846091
+  },
+  "142 Wyatt Dr, Las Cruces": {
+    "lat": 32.2996258,
+    "lng": -106.7759555
+  },
+  "142 Wyatt Dr, Las Cruces 88005.0": {
+    "lat": 32.2996258,
+    "lng": -106.7759555
+  },
+  "1455 Hickory Dr Ste 1B, Las Cruces": {
+    "lat": 32.2906101,
+    "lng": -106.7866285
+  },
+  "1455 Hickory Dr Ste 1B, Las Cruces 88005.0": {
+    "lat": 32.2906101,
+    "lng": -106.7866285
+  },
+  "1455 Hickory Dr., Las Cruces": {
+    "lat": 32.2906101,
+    "lng": -106.7866285
+  },
+  "1455 Hickory Dr., Las Cruces 88005.0": {
+    "lat": 32.2906101,
+    "lng": -106.7866285
+  },
+  "1590 E Lohman Ave, Las Cruces": {
+    "lat": 32.3093168,
+    "lng": -106.7619753
+  },
+  "1590 E Lohman Ave, Las Cruces 88001.0": {
+    "lat": 32.3093168,
+    "lng": -106.7619753
+  },
+  "1595 El Paseo Rd, Las Cruces": {
+    "lat": 32.2947822,
+    "lng": -106.7687523
+  },
+  "1595 El Paseo Rd, Las Cruces 88001.0": {
+    "lat": 32.2947822,
+    "lng": -106.7687523
+  },
+  "1600 South Valley Drive, Suite D, Las Cruces": {
+    "lat": 32.2901565,
+    "lng": -106.7839671
+  },
+  "1600 South Valley Drive, Suite D, Las Cruces 88005.0": {
+    "lat": 32.2901565,
+    "lng": -106.7839671
+  },
+  "1602 E Lohman, Las Cruces": {
+    "lat": 32.3121869,
+    "lng": -106.7543947
+  },
+  "1602 E Lohman, Las Cruces 88011.0": {
+    "lat": 32.3121869,
+    "lng": -106.7543947
+  },
+  "162 Wyatt Dr, Las Cruces": {
+    "lat": 32.2995471,
+    "lng": -106.7766696
+  },
+  "162 Wyatt Dr, Las Cruces 88005.0": {
+    "lat": 32.2995471,
+    "lng": -106.7766696
+  },
+  "1685 North Main St, Las Cruces": {
+    "lat": 32.3238583,
+    "lng": -106.7826819
+  },
+  "1685 North Main St, Las Cruces 88001.0": {
+    "lat": 32.3238583,
+    "lng": -106.7826819
+  },
+  "1713 E. University Blvd, Las Cruces": {
+    "lat": 34.9873215,
+    "lng": -106.6132149
+  },
+  "1713 E. University Blvd, Las Cruces 88001.0": {
+    "lat": 34.9873215,
+    "lng": -106.6132149
+  },
+  "1810 E. Lohman, Las Cruces": {
+    "lat": 32.3098017,
+    "lng": -106.7600009
+  },
+  "1810 E. Lohman, Las Cruces 88001.0": {
+    "lat": 32.3098017,
+    "lng": -106.7600009
+  },
+  "1886 W Picacho Ave, Las Cruces": {
+    "lat": 32.3117437,
+    "lng": -106.8049372
+  },
+  "1886 W Picacho Ave, Las Cruces 88005.0": {
+    "lat": 32.3117437,
+    "lng": -106.8049372
+  },
+  "1960 N Solano Dr, Las Cruces": {
+    "lat": 32.3268126,
+    "lng": -106.7780919
+  },
+  "1960 N Solano Dr, Las Cruces 88001.0": {
+    "lat": 32.3268126,
+    "lng": -106.7780919
+  },
+  "1965 Bataan Memorial, Las Cruces": {
+    "lat": 32.3512953,
+    "lng": -106.7668268
+  },
+  "1965 Bataan Memorial, Las Cruces 88012.0": {
+    "lat": 32.3512953,
+    "lng": -106.7668268
+  },
+  "200 Conway, Las Cruces": {
+    "lat": 32.2773055,
+    "lng": -106.7691772
+  },
+  "200 Conway, Las Cruces 88005.0": {
+    "lat": 32.2773055,
+    "lng": -106.7691772
+  },
+  "200 S Solano Ste 3, Las Cruces": {
+    "lat": 32.311789,
+    "lng": -106.765208
+  },
+  "200 S Solano Ste 3, Las Cruces 88001.0": {
+    "lat": 32.311789,
+    "lng": -106.765208
+  },
+  "2000 E Lohman Ave Ste E, Las Cruces": {
+    "lat": 32.310916,
+    "lng": -106.756641
+  },
+  "2000 E Lohman Ave Ste E, Las Cruces 88001.0": {
+    "lat": 32.310916,
+    "lng": -106.756641
+  },
+  "2001 Copper Loop Ste 5, Las Cruces": {
+    "lat": 32.3050005,
+    "lng": -106.8071465
+  },
+  "2001 Copper Loop Ste 5, Las Cruces 880005.0": {
+    "lat": 32.3050005,
+    "lng": -106.8071465
+  },
+  "2153 W Picacho Ave, Las Cruces": {
+    "lat": 32.3112598,
+    "lng": -106.8080161
+  },
+  "2153 W Picacho Ave, Las Cruces 88007.0": {
+    "lat": 32.3112598,
+    "lng": -106.8080161
+  },
+  "2215 A South Main St, Las Cruces": {
+    "lat": 32.3075185,
+    "lng": -106.778076
+  },
+  "2215 A South Main St, Las Cruces 88005.0": {
+    "lat": 32.3075185,
+    "lng": -106.778076
+  },
+  "2240 E Lohman Ave., Unit 1, Las Cruces": {
+    "lat": 32.3130372,
+    "lng": -106.7522634
+  },
+  "2240 E Lohman Ave., Unit 1, Las Cruces 88001.0": {
+    "lat": 32.3130372,
+    "lng": -106.7522634
+  },
+  "227 S Main St, Las Cruces": {
+    "lat": 32.312439,
+    "lng": -106.7793599
+  },
+  "227 S Main St, Las Cruces 88001.0": {
+    "lat": 32.312439,
+    "lng": -106.7793599
+  },
+  "2305 Nevada Ave, Las Cruces": {
+    "lat": 32.308387,
+    "lng": -106.750986
+  },
+  "2305 Nevada Ave, Las Cruces 88001.0": {
+    "lat": 32.308387,
+    "lng": -106.750986
+  },
+  "2460 Missouri Ave, Las Cruces": {
+    "lat": 32.2983631,
+    "lng": -106.7435383
+  },
+  "2460 Missouri Ave, Las Cruces 88001.0": {
+    "lat": 32.2983631,
+    "lng": -106.7435383
+  },
+  "250 W Amador Ave, Las Cruces": {
+    "lat": 32.3070964,
+    "lng": -106.779956
+  },
+  "250 W Amador Ave, Las Cruces 88005.0": {
+    "lat": 32.3070964,
+    "lng": -106.779956
+  },
+  "2505 Missouri Avenue, Las Cruces": {
+    "lat": 32.2991815,
+    "lng": -106.7415989
+  },
+  "2505 Missouri Avenue, Las Cruces 88011.0": {
+    "lat": 32.2991815,
+    "lng": -106.7415989
+  },
+  "2517 Main St, Las Cruces": {
+    "lat": 32.3349503,
+    "lng": -106.7803617
+  },
+  "2517 Main St, Las Cruces 87107.0": {
+    "lat": 32.3349503,
+    "lng": -106.7803617
+  },
+  "2702  West Amador Suite B-2, Las Cruces": {
+    "lat": 32.2966368,
+    "lng": -106.8124422
+  },
+  "2702  West Amador Suite B-2, Las Cruces 88005.0": {
+    "lat": 32.2966368,
+    "lng": -106.8124422
+  },
+  "2821 N Telshor Blvd, Las Cruces": {
+    "lat": 32.3488484,
+    "lng": -106.7652703
+  },
+  "2821 N Telshor Blvd, Las Cruces 88011.0": {
+    "lat": 32.3488484,
+    "lng": -106.7652703
+  },
+  "300 N Main St. Ste 4, Las Cruces": {
+    "lat": 32.312439,
+    "lng": -106.7793599
+  },
+  "300 N Main St. Ste 4, Las Cruces 88001.0": {
+    "lat": 32.312439,
+    "lng": -106.7793599
+  },
+  "301 N Solano Dr Ste 8, Las Cruces": {
+    "lat": 32.3150294,
+    "lng": -106.766784
+  },
+  "301 N Solano Dr Ste 8, Las Cruces 88001.0": {
+    "lat": 32.3150294,
+    "lng": -106.766784
+  },
+  "3050 Roadrunner Parkway, Ste A2, Las Cruces": {
+    "lat": 32.357582,
+    "lng": -106.7567762
+  },
+  "3050 Roadrunner Parkway, Ste A2, Las Cruces 88011.0": {
+    "lat": 32.357582,
+    "lng": -106.7567762
+  },
+  "3330 Rinconada Blvd, Las Cruces": {
+    "lat": 32.3632189,
+    "lng": -106.748908
+  },
+  "3330 Rinconada Blvd, Las Cruces 88011.0": {
+    "lat": 32.3632189,
+    "lng": -106.748908
+  },
+  "3497 Bataan Memorial West, Las Cruces": {
+    "lat": 32.3648446,
+    "lng": -106.7500479
+  },
+  "3497 Bataan Memorial West, Las Cruces 88102.0": {
+    "lat": 32.3648446,
+    "lng": -106.7500479
+  },
+  "3510 Northrise Suite 4, Las Cruces": {
+    "lat": 32.3685208,
+    "lng": -106.7277218
+  },
+  "3510 Northrise Suite 4, Las Cruces 88011.0": {
+    "lat": 32.3685208,
+    "lng": -106.7277218
+  },
+  "3841 East Lohman Ave, Las Cruces": {
+    "lat": 32.3192843,
+    "lng": -106.7359792
+  },
+  "3841 East Lohman Ave, Las Cruces 88011.0": {
+    "lat": 32.3192843,
+    "lng": -106.7359792
+  },
+  "401 North 17th St. Suite 8, Las Cruces": {
+    "lat": 32.3057444,
+    "lng": -106.8042713
+  },
+  "401 North 17th St. Suite 8, Las Cruces 88005.0": {
+    "lat": 32.3057444,
+    "lng": -106.8042713
+  },
+  "421 Avenida De Mesilla, Las Cruces": {
+    "lat": 32.2937629,
+    "lng": -106.7847806
+  },
+  "421 Avenida De Mesilla, Las Cruces 88005.0": {
+    "lat": 32.2937629,
+    "lng": -106.7847806
+  },
+  "513 E Idaho, Las Cruces": {
+    "lat": 32.2974951,
+    "lng": -106.7710857
+  },
+  "513 E Idaho, Las Cruces 88001.0": {
+    "lat": 32.2974951,
+    "lng": -106.7710857
+  },
+  "523 E Idaho, Las Cruces": {
+    "lat": 32.2975235,
+    "lng": -106.7709621
+  },
+  "523 E Idaho, Las Cruces 88001.0": {
+    "lat": 32.2975235,
+    "lng": -106.7709621
+  },
+  "530 N Telshor Suite G, Las Cruces": {
+    "lat": 32.3216037,
+    "lng": -106.750586
+  },
+  "530 N Telshor Suite G, Las Cruces 88007.0": {
+    "lat": 32.3216037,
+    "lng": -106.750586
+  },
+  "580 S. Valley Dr. Ste. 300, Las Cruces": {
+    "lat": 32.3020346,
+    "lng": -106.7925486
+  },
+  "580 S. Valley Dr. Ste. 300, Las Cruces 88005.0": {
+    "lat": 32.3020346,
+    "lng": -106.7925486
+  },
+  "600 S Solano, Las Cruces": {
+    "lat": 32.3077,
+    "lng": -106.764858
+  },
+  "600 S Solano, Las Cruces 88001.0": {
+    "lat": 32.3077,
+    "lng": -106.764858
+  },
+  "606 N Mesquite, Las Cruces": {
+    "lat": 32.3146542,
+    "lng": -106.7754372
+  },
+  "606 N Mesquite, Las Cruces 88001.0": {
+    "lat": 32.3146542,
+    "lng": -106.7754372
+  },
+  "615 E Lohman Ave, Las Cruces": {
+    "lat": 32.3073913,
+    "lng": -106.7719914
+  },
+  "615 E Lohman Ave, Las Cruces 88001.0": {
+    "lat": 32.3073913,
+    "lng": -106.7719914
+  },
+  "641 Thorpe Rd., Las Cruces": {
+    "lat": 32.3894888,
+    "lng": -106.8111975
+  },
+  "641 Thorpe Rd., Las Cruces 88007.0": {
+    "lat": 32.3894888,
+    "lng": -106.8111975
+  },
+  "725 South Solano, Las Cruces": {
+    "lat": 32.3059511,
+    "lng": -106.7641259
+  },
+  "725 South Solano, Las Cruces 88001.0": {
+    "lat": 32.3059511,
+    "lng": -106.7641259
+  },
+  "750 S Solano, Las Cruces": {
+    "lat": 32.3058205,
+    "lng": -106.7642868
+  },
+  "750 S Solano, Las Cruces 88001.0": {
+    "lat": 32.3058205,
+    "lng": -106.7642868
+  },
+  "775 S Telshor, Las Cruces": {
+    "lat": 32.3072997,
+    "lng": -106.737805
+  },
+  "775 S Telshor, Las Cruces 88011.0": {
+    "lat": 32.3072997,
+    "lng": -106.737805
+  },
+  "951 N Solano Dr Suite B, Las Cruces": {
+    "lat": 32.3189824,
+    "lng": -106.7701244
+  },
+  "951 N Solano Dr Suite B, Las Cruces 88001.0": {
+    "lat": 32.3189824,
+    "lng": -106.7701244
+  },
+  "9575 Bataan Memorial West, Las Cruces": {
+    "lat": 32.4113433,
+    "lng": -106.6402519
+  },
+  "9575 Bataan Memorial West, Las Cruces 88012.0": {
+    "lat": 32.4113433,
+    "lng": -106.6402519
+  },
+  "100 Maguey Ct, Sunland Park": {
+    "lat": 31.8112648,
+    "lng": -106.5930726
+  },
+  "100 Maguey Ct, Sunland Park 88063.0": {
+    "lat": 31.8112648,
+    "lng": -106.5930726
+  },
+  "100 Palomas Pl Ste B-2, Sunland Park": {
+    "lat": 31.8118954,
+    "lng": -106.5936324
+  },
+  "100 Palomas Pl Ste B-2, Sunland Park 88063.0": {
+    "lat": 31.8118954,
+    "lng": -106.5936324
+  },
+  "101 Maguey Suite 4, Sunland Park": {
+    "lat": 31.8112648,
+    "lng": -106.5930726
+  },
+  "101 Maguey Suite 4, Sunland Park 88063.0": {
+    "lat": 31.8112648,
+    "lng": -106.5930726
+  },
+  "1051 McNutt Rd, Sunland Park": {
+    "lat": 31.7968027,
+    "lng": -106.5523256
+  },
+  "1051 McNutt Rd, Sunland Park 88063.0": {
+    "lat": 31.7968027,
+    "lng": -106.5523256
+  },
+  "1144 McNutt, Sunland Park": {
+    "lat": 31.7956963,
+    "lng": -106.5569551
+  },
+  "1144 McNutt, Sunland Park 88063.0": {
+    "lat": 31.7956963,
+    "lng": -106.5569551
+  },
+  "1155 McNutt Road, Sunland Park": {
+    "lat": 31.796448,
+    "lng": -106.5530739
+  },
+  "1155 McNutt Road, Sunland Park 88063.0": {
+    "lat": 31.796448,
+    "lng": -106.5530739
+  },
+  "1290 McNutt Rd, Sunland Park": {
+    "lat": 31.7954025,
+    "lng": -106.5603407
+  },
+  "1290 McNutt Rd, Sunland Park 88063.0": {
+    "lat": 31.7954025,
+    "lng": -106.5603407
+  },
+  "1290 McNutt Rd. Ste. D, Sunland Park": {
+    "lat": 31.7954025,
+    "lng": -106.5603407
+  },
+  "1290 McNutt Rd. Ste. D, Sunland Park 88063.0": {
+    "lat": 31.7954025,
+    "lng": -106.5603407
+  },
+  "1541 Appaloosa Unit 7, Sunland Park": {
+    "lat": 31.8165362,
+    "lng": -106.5862169
+  },
+  "1541 Appaloosa Unit 7, Sunland Park 88063.0": {
+    "lat": 31.8165362,
+    "lng": -106.5862169
+  },
+  "1580 Appaloosa Dr Ste 320, Sunland Park": {
+    "lat": 31.8199249,
+    "lng": -106.5904153
+  },
+  "1580 Appaloosa Dr Ste 320, Sunland Park 88063.0": {
+    "lat": 31.8199249,
+    "lng": -106.5904153
+  },
+  "159 Sunland Park Dr, Sunland Park": {
+    "lat": 31.807787,
+    "lng": -106.5630931
+  },
+  "159 Sunland Park Dr, Sunland Park 88063.0": {
+    "lat": 31.807787,
+    "lng": -106.5630931
+  },
+  "1615 Appaloosa Dr, Sunland Park": {
+    "lat": 31.8199249,
+    "lng": -106.5904153
+  },
+  "1615 Appaloosa Dr, Sunland Park 88063.0": {
+    "lat": 31.8199249,
+    "lng": -106.5904153
+  },
+  "1621 Appaloosa Dr, Sunland Park": {
+    "lat": 31.8199249,
+    "lng": -106.5904153
+  },
+  "1621 Appaloosa Dr, Sunland Park 88063.0": {
+    "lat": 31.8199249,
+    "lng": -106.5904153
+  },
+  "1685 McNutt, Sunland Park": {
+    "lat": 31.7960797,
+    "lng": -106.5690505
+  },
+  "1685 McNutt, Sunland Park 88063.0": {
+    "lat": 31.7960797,
+    "lng": -106.5690505
+  },
+  "1769 Victory Ln, Sunland Park": {
+    "lat": 35.0988956,
+    "lng": -106.2122721
+  },
+  "1769 Victory Ln, Sunland Park 88063.0": {
+    "lat": 35.0988956,
+    "lng": -106.2122721
+  },
+  "1805 Futurity Dr, Sunland Park": {
+    "lat": 31.8040955,
+    "lng": -106.5622689
+  },
+  "1805 Futurity Dr, Sunland Park 88603.0": {
+    "lat": 31.8040955,
+    "lng": -106.5622689
+  },
+  "1845 McNutt Rd, Sunland Park": {
+    "lat": 31.7968782,
+    "lng": -106.5703459
+  },
+  "1845 McNutt Rd, Sunland Park 88063.0": {
+    "lat": 31.7968782,
+    "lng": -106.5703459
+  },
+  "1925 Appaloosa Dr, Sunland Park": {
+    "lat": 31.8031639,
+    "lng": -106.5725171
+  },
+  "1925 Appaloosa Dr, Sunland Park 88063.0": {
+    "lat": 31.8031639,
+    "lng": -106.5725171
+  },
+  "1999 Futurity Drive Unit A, Sunland Park": {
+    "lat": 31.8039388,
+    "lng": -106.5617927
+  },
+  "1999 Futurity Drive Unit A, Sunland Park 88063.0": {
+    "lat": 31.8039388,
+    "lng": -106.5617927
+  },
+  "2167 McNutt Rd suite A, Sunland Park": {
+    "lat": 31.7982922,
+    "lng": -106.575478
+  },
+  "2167 McNutt Rd suite A, Sunland Park 88063.0": {
+    "lat": 31.7982922,
+    "lng": -106.575478
+  },
+  "2327 McNutt Ste D, Sunland Park": {
+    "lat": 31.799538,
+    "lng": -106.5775966
+  },
+  "2327 McNutt Ste D, Sunland Park 88063.0": {
+    "lat": 31.799538,
+    "lng": -106.5775966
+  },
+  "2355 McNutt Road, Sunland Park": {
+    "lat": 31.7996835,
+    "lng": -106.577982
+  },
+  "2355 McNutt Road, Sunland Park 88063.0": {
+    "lat": 31.7996835,
+    "lng": -106.577982
+  },
+  "245 Derby Rd, Sunland Park": {
+    "lat": 31.8029029,
+    "lng": -106.5670884
+  },
+  "245 Derby Rd, Sunland Park 88063.0": {
+    "lat": 31.8029029,
+    "lng": -106.5670884
+  },
+  "267 Anapra Rd, Sunland Park": {
+    "lat": 31.7926542,
+    "lng": -106.5600505
+  },
+  "267 Anapra Rd, Sunland Park 88063.0": {
+    "lat": 31.7926542,
+    "lng": -106.5600505
+  },
+  "871 McNutt Rd, Sunland Park": {
+    "lat": 31.7975754,
+    "lng": -106.5511208
+  },
+  "871 McNutt Rd, Sunland Park 88063.0": {
+    "lat": 31.7975754,
+    "lng": -106.5511208
+  },
+  "1003 N Linam St, Hobbs": {
+    "lat": 32.710304,
+    "lng": -103.13881
+  },
+  "1003 N Linam St, Hobbs 88240.0": {
+    "lat": 32.710304,
+    "lng": -103.13881
+  },
+  "1127 Joe Harvey Blvd, Hobbs": {
+    "lat": 32.7397996,
+    "lng": -103.1500133
+  },
+  "1127 Joe Harvey Blvd, Hobbs 88240.0": {
+    "lat": 32.7397996,
+    "lng": -103.1500133
+  },
+  "1912 N Grimes, Hobbs": {
+    "lat": 32.7201438,
+    "lng": -103.1445664
+  },
+  "1912 N Grimes, Hobbs 88240.0": {
+    "lat": 32.7201438,
+    "lng": -103.1445664
+  },
+  "207 North Grimes, Hobbs": {
+    "lat": 32.7023528,
+    "lng": -103.144928
+  },
+  "207 North Grimes, Hobbs 88240.0": {
+    "lat": 32.7023528,
+    "lng": -103.144928
+  },
+  "2206 West Marland Boulevard, Hobbs": {
+    "lat": 32.696694,
+    "lng": -103.1621953
+  },
+  "2206 West Marland Boulevard, Hobbs 88240.0": {
+    "lat": 32.696694,
+    "lng": -103.1621953
+  },
+  "2620 N Lovington Hwy, Hobbs": {
+    "lat": 32.7290856,
+    "lng": -103.1498294
+  },
+  "2620 N Lovington Hwy, Hobbs 88240.0": {
+    "lat": 32.7290856,
+    "lng": -103.1498294
+  },
+  "301 N GRIMES ST, Hobbs": {
+    "lat": 32.703608,
+    "lng": -103.144928
+  },
+  "301 N GRIMES ST, Hobbs 88240.0": {
+    "lat": 32.703608,
+    "lng": -103.144928
+  },
+  "310 W Navajo Dr, Hobbs": {
+    "lat": 32.7405823,
+    "lng": -103.1398185
+  },
+  "310 W Navajo Dr, Hobbs 88240.0": {
+    "lat": 32.7405823,
+    "lng": -103.1398185
+  },
+  "311 W Broadway St, Hobbs": {
+    "lat": 32.7007215,
+    "lng": -103.138943
+  },
+  "311 W Broadway St, Hobbs 88240.0": {
+    "lat": 32.7007215,
+    "lng": -103.138943
+  },
+  "312 W Navajo Ste 100, Hobbs": {
+    "lat": 32.7402879,
+    "lng": -103.1392167
+  },
+  "312 W Navajo Ste 100, Hobbs 88240.0": {
+    "lat": 32.7402879,
+    "lng": -103.1392167
+  },
+  "3211 N Dal Paso, Hobbs": {
+    "lat": 32.7390848,
+    "lng": -103.1282549
+  },
+  "3211 N Dal Paso, Hobbs 88240.0": {
+    "lat": 32.7390848,
+    "lng": -103.1282549
+  },
+  "3501 N Grimes St Ste 100, Hobbs": {
+    "lat": 32.7386999,
+    "lng": -103.1450231
+  },
+  "3501 N Grimes St Ste 100, Hobbs 88240.0": {
+    "lat": 32.7386999,
+    "lng": -103.1450231
+  },
+  "4301 N Grimes St Suite 600, Hobbs": {
+    "lat": 32.746534,
+    "lng": -103.144997
+  },
+  "4301 N Grimes St Suite 600, Hobbs 88240.0": {
+    "lat": 32.746534,
+    "lng": -103.144997
+  },
+  "4401 N Grimes Ste 300, Hobbs": {
+    "lat": 32.7337732,
+    "lng": -103.1448677
+  },
+  "4401 N Grimes Ste 300, Hobbs 88240.0": {
+    "lat": 32.7337732,
+    "lng": -103.1448677
+  },
+  "502 West Navajo Dr, Hobbs": {
+    "lat": 32.740643,
+    "lng": -103.1408617
+  },
+  "502 West Navajo Dr, Hobbs 88240.0": {
+    "lat": 32.740643,
+    "lng": -103.1408617
+  },
+  "616 E Bender Blvd, Hobbs": {
+    "lat": 32.7260669,
+    "lng": -103.1300757
+  },
+  "616 E Bender Blvd, Hobbs 88240.0": {
+    "lat": 32.7260669,
+    "lng": -103.1300757
+  },
+  "617 S Cochran, Hobbs": {
+    "lat": 32.6953124,
+    "lng": -103.1412903
+  },
+  "617 S Cochran, Hobbs 88240.0": {
+    "lat": 32.6953124,
+    "lng": -103.1412903
+  },
+  "701 N Grimes St, Hobbs": {
+    "lat": 32.7079936,
+    "lng": -103.1449336
+  },
+  "701 N Grimes St, Hobbs 88240.0": {
+    "lat": 32.7079936,
+    "lng": -103.1449336
+  },
+  "708 E Bender Blvd, Hobbs": {
+    "lat": 32.7260285,
+    "lng": -103.1290438
+  },
+  "708 E Bender Blvd, Hobbs 88240.0": {
+    "lat": 32.7260285,
+    "lng": -103.1290438
+  },
+  "718 Bender Blvd, Hobbs": {
+    "lat": 32.7258712,
+    "lng": -103.1288281
+  },
+  "718 Bender Blvd, Hobbs 88240.0": {
+    "lat": 32.7258712,
+    "lng": -103.1288281
+  },
+  "927 E Bender Blvd, Hobbs": {
+    "lat": 32.72563,
+    "lng": -103.125401
+  },
+  "927 E Bender Blvd, Hobbs 88240.0": {
+    "lat": 32.72563,
+    "lng": -103.125401
+  },
+  "106 S Main St, Clovis": {
+    "lat": 34.3984369,
+    "lng": -103.2054268
+  },
+  "106 S Main St, Clovis 88101.0": {
+    "lat": 34.3984369,
+    "lng": -103.2054268
+  },
+  "1512 N. Prince, Clovis": {
+    "lat": 34.4132533,
+    "lng": -103.196595
+  },
+  "1512 N. Prince, Clovis 88101.0": {
+    "lat": 34.4132533,
+    "lng": -103.196595
+  },
+  "1605 Mabry St, Clovis": {
+    "lat": 35.6545,
+    "lng": -106.0036935
+  },
+  "1605 Mabry St, Clovis 88101.0": {
+    "lat": 35.6545,
+    "lng": -106.0036935
+  },
+  "2009 Ross, Clovis": {
+    "lat": 34.4178732,
+    "lng": -103.197647
+  },
+  "2009 Ross, Clovis 88101.0": {
+    "lat": 34.4178732,
+    "lng": -103.197647
+  },
+  "2216 W 7th St., Clovis": {
+    "lat": 34.404755,
+    "lng": -103.2325449
+  },
+  "2216 W 7th St., Clovis 88101.0": {
+    "lat": 34.404755,
+    "lng": -103.2325449
+  },
+  "2300 E 7th ST, Clovis": {
+    "lat": 34.404925,
+    "lng": -103.178684
+  },
+  "2300 E 7th ST, Clovis 88101.0": {
+    "lat": 34.404925,
+    "lng": -103.178684
+  },
+  "2320 N Main St, Clovis": {
+    "lat": 34.4217852,
+    "lng": -103.20527
+  },
+  "2320 N Main St, Clovis 88101.0": {
+    "lat": 34.4217852,
+    "lng": -103.20527
+  },
+  "2905 North Prince Street, Clovis": {
+    "lat": 34.4271866,
+    "lng": -103.196378
+  },
+  "2905 North Prince Street, Clovis 88101.0": {
+    "lat": 34.4271866,
+    "lng": -103.196378
+  },
+  "321 W 7th St Ste B, Clovis": {
+    "lat": 34.4046214,
+    "lng": -103.2082792
+  },
+  "321 W 7th St Ste B, Clovis 88101.0": {
+    "lat": 34.4046214,
+    "lng": -103.2082792
+  },
+  "3211 N Prince St, Clovis": {
+    "lat": 34.4304927,
+    "lng": -103.1963715
+  },
+  "3211 N Prince St, Clovis 88101.0": {
+    "lat": 34.4304927,
+    "lng": -103.1963715
+  },
+  "3221 Axtell St, Clovis": {
+    "lat": 34.4308162,
+    "lng": -103.2012172
+  },
+  "3221 Axtell St, Clovis 88101.0": {
+    "lat": 34.4308162,
+    "lng": -103.2012172
+  },
+  "3608 N Prince Street, Suite E, Clovis": {
+    "lat": 34.4353188,
+    "lng": -103.1969842
+  },
+  "3608 N Prince Street, Suite E, Clovis 88101.0": {
+    "lat": 34.4353188,
+    "lng": -103.1969842
+  },
+  "3806 Mabry Dr., Clovis": {
+    "lat": 34.3951401,
+    "lng": -103.1593576
+  },
+  "3806 Mabry Dr., Clovis 88101.0": {
+    "lat": 34.3951401,
+    "lng": -103.1593576
+  },
+  "4024 N Prince St Ste G, Clovis": {
+    "lat": 34.4393864,
+    "lng": -103.196531
+  },
+  "4024 N Prince St Ste G, Clovis 88101.0": {
+    "lat": 34.4393864,
+    "lng": -103.196531
+  },
+  "408 n Norris st, Clovis": {
+    "lat": 34.4020469,
+    "lng": -103.1789323
+  },
+  "408 n Norris st, Clovis 88101.0": {
+    "lat": 34.4020469,
+    "lng": -103.1789323
+  },
+  "4101 North Prince St, Clovis": {
+    "lat": 34.439338,
+    "lng": -103.196333
+  },
+  "4101 North Prince St, Clovis 88101.0": {
+    "lat": 34.439338,
+    "lng": -103.196333
+  },
+  "416 N. Hull St., Clovis": {
+    "lat": 34.4020658,
+    "lng": -103.220575
+  },
+  "416 N. Hull St., Clovis 88101.0": {
+    "lat": 34.4020658,
+    "lng": -103.220575
+  },
+  "5021 N. Prince, Clovis": {
+    "lat": 34.3995591,
+    "lng": -103.1964607
+  },
+  "5021 N. Prince, Clovis 88101.0": {
+    "lat": 34.3995591,
+    "lng": -103.1964607
+  },
+  "601 Llano Estacado, Clovis": {
+    "lat": 34.4338686,
+    "lng": -103.1988541
+  },
+  "601 Llano Estacado, Clovis 88101.0": {
+    "lat": 34.4338686,
+    "lng": -103.1988541
+  },
+  "721 E 1st, Clovis": {
+    "lat": 34.3987494,
+    "lng": -103.1973907
+  },
+  "721 E 1st, Clovis 88101.0": {
+    "lat": 34.3987494,
+    "lng": -103.1973907
+  },
+  "109 West Broadway, Farmington": {
+    "lat": 36.7280073,
+    "lng": -108.2059886
+  },
+  "109 West Broadway, Farmington 87401.0": {
+    "lat": 36.7280073,
+    "lng": -108.2059886
+  },
+  "115 W Main ST., Farmington": {
+    "lat": 36.729005,
+    "lng": -108.2057546
+  },
+  "115 W Main ST., Farmington 87401.0": {
+    "lat": 36.729005,
+    "lng": -108.2057546
+  },
+  "1801 E Broadway St, Farmington": {
+    "lat": 36.7282257,
+    "lng": -108.2015577
+  },
+  "1801 E Broadway St, Farmington 87401.0": {
+    "lat": 36.7282257,
+    "lng": -108.2015577
+  },
+  "1901 E 20th St, Farmington": {
+    "lat": 36.748147,
+    "lng": -108.181761
+  },
+  "1901 E 20th St, Farmington 87401.0": {
+    "lat": 36.748147,
+    "lng": -108.181761
+  },
+  "1930 San Juan Blvd A, Farmington": {
+    "lat": 36.7353551,
+    "lng": -108.1831918
+  },
+  "1930 San Juan Blvd A, Farmington 87401.0": {
+    "lat": 36.7353551,
+    "lng": -108.1831918
+  },
+  "199 S Butler, Farmington": {
+    "lat": 36.7289214,
+    "lng": -108.1976955
+  },
+  "199 S Butler, Farmington 87401.0": {
+    "lat": 36.7289214,
+    "lng": -108.1976955
+  },
+  "206 S Miller, Farmington": {
+    "lat": 36.7279438,
+    "lng": -108.2031742
+  },
+  "206 S Miller, Farmington 87401.0": {
+    "lat": 36.7279438,
+    "lng": -108.2031742
+  },
+  "3000 E 20th St, Farmington": {
+    "lat": 36.748195,
+    "lng": -108.166103
+  },
+  "3000 E 20th St, Farmington 87402.0": {
+    "lat": 36.748195,
+    "lng": -108.166103
+  },
+  "3024 E. Main Street, Suite A., Farmington": {
+    "lat": 36.7453477,
+    "lng": -108.1645733
+  },
+  "3024 E. Main Street, Suite A., Farmington 87042.0": {
+    "lat": 36.7453477,
+    "lng": -108.1645733
+  },
+  "3150 E Main St, Farmington": {
+    "lat": 36.7468806,
+    "lng": -108.1632914
+  },
+  "3150 E Main St, Farmington 87402.0": {
+    "lat": 36.7468806,
+    "lng": -108.1632914
+  },
+  "3501 E Main St Ste 1  2, Farmington": {
+    "lat": 36.7492485,
+    "lng": -108.1605127
+  },
+  "3501 E Main St Ste 1  2, Farmington 87402.0": {
+    "lat": 36.7492485,
+    "lng": -108.1605127
+  },
+  "4000 E Main St, Farmington": {
+    "lat": 36.756202,
+    "lng": -108.15665
+  },
+  "4000 E Main St, Farmington 87402.0": {
+    "lat": 36.756202,
+    "lng": -108.15665
+  },
+  "403 W. Main St, Farmington": {
+    "lat": 36.7289558,
+    "lng": -108.2094655
+  },
+  "403 W. Main St, Farmington 87401.0": {
+    "lat": 36.7289558,
+    "lng": -108.2094655
+  },
+  "426 E Main St, Farmington": {
+    "lat": 36.7296698,
+    "lng": -108.1999686
+  },
+  "426 E Main St, Farmington 87401.0": {
+    "lat": 36.7296698,
+    "lng": -108.1999686
+  },
+  "4339 E Main St, Farmington": {
+    "lat": 36.7609592,
+    "lng": -108.1557945
+  },
+  "4339 E Main St, Farmington 87402.0": {
+    "lat": 36.7609592,
+    "lng": -108.1557945
+  },
+  "4601 English Rd, Farmington": {
+    "lat": 36.77695,
+    "lng": -108.1492963
+  },
+  "4601 English Rd, Farmington 87402.0": {
+    "lat": 36.77695,
+    "lng": -108.1492963
+  },
+  "5100 E Main St Suite 105, Farmington": {
+    "lat": 36.7688695,
+    "lng": -108.145543
+  },
+  "5100 E Main St Suite 105, Farmington 87402.0": {
+    "lat": 36.7688695,
+    "lng": -108.145543
+  },
+  "663 W MAIN ST, Farmington": {
+    "lat": 36.7289471,
+    "lng": -108.2135937
+  },
+  "663 W MAIN ST, Farmington 87401.0": {
+    "lat": 36.7289471,
+    "lng": -108.2135937
+  },
+  "911 W Apache St, Farmington": {
+    "lat": 36.7338926,
+    "lng": -108.2206877
+  },
+  "911 W Apache St, Farmington 87401.0": {
+    "lat": 36.7338926,
+    "lng": -108.2206877
+  },
+  "1009 E 10th St, Alamogordo": {
+    "lat": 32.8999252,
+    "lng": -105.9498812
+  },
+  "1009 E 10th St, Alamogordo 88310.0": {
+    "lat": 32.8999252,
+    "lng": -105.9498812
+  },
+  "101 N White Sands Blvd, Alamogordo": {
+    "lat": 32.890399,
+    "lng": -105.960299
+  },
+  "101 N White Sands Blvd, Alamogordo 88310.0": {
+    "lat": 32.890399,
+    "lng": -105.960299
+  },
+  "1022 N White Sands Blvd, Alamogordo": {
+    "lat": 32.9000245,
+    "lng": -105.9604531
+  },
+  "1022 N White Sands Blvd, Alamogordo 88310.0": {
+    "lat": 32.9000245,
+    "lng": -105.9604531
+  },
+  "123 N. White Sands Blvd, Alamogordo": {
+    "lat": 32.8906235,
+    "lng": -105.9602997
+  },
+  "123 N. White Sands Blvd, Alamogordo 88310.0": {
+    "lat": 32.8906235,
+    "lng": -105.9602997
+  },
+  "1300 White Sands Blvd, Alamogordo": {
+    "lat": 32.9039834,
+    "lng": -105.9600648
+  },
+  "1300 White Sands Blvd, Alamogordo 88310.0": {
+    "lat": 32.9039834,
+    "lng": -105.9600648
+  },
+  "1610 Indian Wells Rd, Alamogordo": {
+    "lat": 32.915286,
+    "lng": -105.9433617
+  },
+  "1610 Indian Wells Rd, Alamogordo 88310.0": {
+    "lat": 32.915286,
+    "lng": -105.9433617
+  },
+  "2010 Pecan Dr, Alamogordo": {
+    "lat": 32.9140367,
+    "lng": -105.9427201
+  },
+  "2010 Pecan Dr, Alamogordo 88310.0": {
+    "lat": 32.9140367,
+    "lng": -105.9427201
+  },
+  "215 Highway 82, Alamogordo": {
+    "lat": 36.33821,
+    "lng": -106.175202
+  },
+  "215 Highway 82, Alamogordo 88310.0": {
+    "lat": 36.33821,
+    "lng": -106.175202
+  },
+  "218 WhiteSands, Alamogordo": {
+    "lat": 35.519565,
+    "lng": -106.7365473
+  },
+  "218 WhiteSands, Alamogordo 88310.0": {
+    "lat": 35.519565,
+    "lng": -106.7365473
+  },
+  "2419 North White Sands Blvd Suite C, Alamogordo": {
+    "lat": 32.9193284,
+    "lng": -105.9603884
+  },
+  "2419 North White Sands Blvd Suite C, Alamogordo 88310.0": {
+    "lat": 32.9193284,
+    "lng": -105.9603884
+  },
+  "2617 N. White Sands Blvd. Ste. D, Alamogordo": {
+    "lat": 32.9232022,
+    "lng": -105.9610893
+  },
+  "2617 N. White Sands Blvd. Ste. D, Alamogordo 88310.0": {
+    "lat": 32.9232022,
+    "lng": -105.9610893
+  },
+  "300 N White Sands Blvd., Alamogordo": {
+    "lat": 32.892943,
+    "lng": -105.960131
+  },
+  "300 N White Sands Blvd., Alamogordo 88310.0": {
+    "lat": 32.892943,
+    "lng": -105.960131
+  },
+  "601 N White Sands Blvd, Alamogordo": {
+    "lat": 32.895903,
+    "lng": -105.960352
+  },
+  "601 N White Sands Blvd, Alamogordo 88310.0": {
+    "lat": 32.895903,
+    "lng": -105.960352
+  },
+  "805 N White Sands Blvd Ste D, Alamogordo": {
+    "lat": 32.8984808,
+    "lng": -105.961149
+  },
+  "805 N White Sands Blvd Ste D, Alamogordo 88310.0": {
+    "lat": 32.8984808,
+    "lng": -105.961149
+  },
+  "900 Adams, Alamogordo": {
+    "lat": 32.899095,
+    "lng": -105.9394
+  },
+  "900 Adams, Alamogordo 88310.0": {
+    "lat": 32.899095,
+    "lng": -105.9394
+  },
+  "918 N White Sands Blvd, Alamogordo": {
+    "lat": 32.898999,
+    "lng": -105.9602015
+  },
+  "918 N White Sands Blvd, Alamogordo 88310.0": {
+    "lat": 32.898999,
+    "lng": -105.9602015
+  },
+  "1101 W. Pierce St., Carlsbad": {
+    "lat": 32.435677,
+    "lng": -104.239037
+  },
+  "1101 W. Pierce St., Carlsbad 88220.0": {
+    "lat": 32.435677,
+    "lng": -104.239037
+  },
+  "1215 S Canal St, Carlsbad": {
+    "lat": 32.4078352,
+    "lng": -104.2275974
+  },
+  "1215 S Canal St, Carlsbad 88220.0": {
+    "lat": 32.4078352,
+    "lng": -104.2275974
+  },
+  "1301 S.  Canal St, Carlsbad": {
+    "lat": 32.406901,
+    "lng": -104.227321
+  },
+  "1301 S.  Canal St, Carlsbad 88220.0": {
+    "lat": 32.406901,
+    "lng": -104.227321
+  },
+  "1410 N Canal St, Carlsbad": {
+    "lat": 32.4435013,
+    "lng": -104.2288028
+  },
+  "1410 N Canal St, Carlsbad 88220.0": {
+    "lat": 32.4435013,
+    "lng": -104.2288028
+  },
+  "1704 S. Canal Street, Carlsbad": {
+    "lat": 32.4043702,
+    "lng": -104.2243784
+  },
+  "1704 S. Canal Street, Carlsbad 88220.0": {
+    "lat": 32.4043702,
+    "lng": -104.2243784
+  },
+  "221 S. Canyon St, Carlsbad": {
+    "lat": 32.4188354,
+    "lng": -104.2277946
+  },
+  "221 S. Canyon St, Carlsbad 88220.0": {
+    "lat": 32.4188354,
+    "lng": -104.2277946
+  },
+  "2302 W Pierce St Ste D5  D6, Carlsbad": {
+    "lat": 32.4405703,
+    "lng": -104.2543149
+  },
+  "2302 W Pierce St Ste D5  D6, Carlsbad 88220.0": {
+    "lat": 32.4405703,
+    "lng": -104.2543149
+  },
+  "2521 Canal St, Carlsbad": {
+    "lat": 32.3928771,
+    "lng": -104.2209446
+  },
+  "2521 Canal St, Carlsbad 88220.0": {
+    "lat": 32.3928771,
+    "lng": -104.2209446
+  },
+  "3106 E Greene St, Carlsbad": {
+    "lat": 32.4284339,
+    "lng": -104.1967234
+  },
+  "3106 E Greene St, Carlsbad 88220.0": {
+    "lat": 32.4284339,
+    "lng": -104.1967234
+  },
+  "401 South Canyon Street, Carlsbad": {
+    "lat": 32.416649,
+    "lng": -104.227836
+  },
+  "401 South Canyon Street, Carlsbad 88220.0": {
+    "lat": 32.416649,
+    "lng": -104.227836
+  },
+  "516. Canal St, Carlsbad": {
+    "lat": 32.4153197,
+    "lng": -104.2288836
+  },
+  "516. Canal St, Carlsbad 88220.0": {
+    "lat": 32.4153197,
+    "lng": -104.2288836
+  },
+  "611 N CANAL ST, Carlsbad": {
+    "lat": 32.426473,
+    "lng": -104.2287594
+  },
+  "611 N CANAL ST, Carlsbad 79936.0": {
+    "lat": 32.426473,
+    "lng": -104.2287594
+  },
+  "618 W Pierce, Carlsbad": {
+    "lat": 32.4357869,
+    "lng": -104.2331425
+  },
+  "618 W Pierce, Carlsbad 88220.0": {
+    "lat": 32.4357869,
+    "lng": -104.2331425
+  },
+  "810 W Mermod St, Carlsbad": {
+    "lat": 32.4204744,
+    "lng": -104.2357829
+  },
+  "810 W Mermod St, Carlsbad 88220.0": {
+    "lat": 32.4204744,
+    "lng": -104.2357829
+  },
+  "812 N. Canal Street, Carlsbad": {
+    "lat": 32.4288686,
+    "lng": -104.2287186
+  },
+  "812 N. Canal Street, Carlsbad 88220.0": {
+    "lat": 32.4288686,
+    "lng": -104.2287186
+  },
+  "1042 Camino Del Pueblo, Bernalillo": {
+    "lat": 35.300616,
+    "lng": -106.5508248
+  },
+  "1042 Camino Del Pueblo, Bernalillo 87004.0": {
+    "lat": 35.300616,
+    "lng": -106.5508248
+  },
+  "113 US 550, Bernalillo": {
+    "lat": 35.3187286,
+    "lng": -106.5461187
+  },
+  "113 US 550, Bernalillo 87004.0": {
+    "lat": 35.3187286,
+    "lng": -106.5461187
+  },
+  "115-US 550, Bernalillo": {
+    "lat": 35.3182041,
+    "lng": -106.5434041
+  },
+  "115-US 550, Bernalillo 87004.0": {
+    "lat": 35.3182041,
+    "lng": -106.5434041
+  },
+  "242 US-550, Bernalillo": {
+    "lat": 35.317991,
+    "lng": -106.5436708
+  },
+  "242 US-550, Bernalillo 87004.0": {
+    "lat": 35.317991,
+    "lng": -106.5436708
+  },
+  "255 Camino Don Tomas, Bernalillo": {
+    "lat": 35.3133412,
+    "lng": -106.5511213
+  },
+  "255 Camino Don Tomas, Bernalillo 87004.0": {
+    "lat": 35.3133412,
+    "lng": -106.5511213
+  },
+  "413 S Camino Del Pueblo, Bernalillo": {
+    "lat": 35.3119756,
+    "lng": -106.5474314
+  },
+  "413 S Camino Del Pueblo, Bernalillo 87004.0": {
+    "lat": 35.3119756,
+    "lng": -106.5474314
+  },
+  "501 US-550 S, Bernalillo": {
+    "lat": 35.3205735,
+    "lng": -106.553505
+  },
+  "501 US-550 S, Bernalillo 87004.0": {
+    "lat": 35.3205735,
+    "lng": -106.553505
+  },
+  "510 HWY 528 Ste G, Bernalillo": {
+    "lat": 35.3186113,
+    "lng": -106.5740037
+  },
+  "510 HWY 528 Ste G, Bernalillo 87004.0": {
+    "lat": 35.3186113,
+    "lng": -106.5740037
+  },
+  "848 S Camino Del Pueblo, Bernalillo": {
+    "lat": 35.3106955,
+    "lng": -106.5472648
+  },
+  "848 S Camino Del Pueblo, Bernalillo 87004.0": {
+    "lat": 35.3106955,
+    "lng": -106.5472648
+  },
+  "872 Camino Del Pueblo Ste F, Bernalillo": {
+    "lat": 35.3030595,
+    "lng": -106.549695
+  },
+  "872 Camino Del Pueblo Ste F, Bernalillo 87004.0": {
+    "lat": 35.3030595,
+    "lng": -106.549695
+  },
+  "961 S Camino Del Pueblo, Bernalillo": {
+    "lat": 35.2871205,
+    "lng": -106.5584731
+  },
+  "961 S Camino Del Pueblo, Bernalillo 87004.0": {
+    "lat": 35.2871205,
+    "lng": -106.5584731
+  },
+  "965 US-550 Ste B, Bernalillo": {
+    "lat": 35.3243405,
+    "lng": -106.5633167
+  },
+  "965 US-550 Ste B, Bernalillo 87004.0": {
+    "lat": 35.3243405,
+    "lng": -106.5633167
+  },
+  "1000 Sudderth Drive, Ruidoso": {
+    "lat": 33.324942,
+    "lng": -105.657988
+  },
+  "1000 Sudderth Drive, Ruidoso 88345.0": {
+    "lat": 33.324942,
+    "lng": -105.657988
+  },
+  "101 Mechem Dr, Ruidoso": {
+    "lat": 33.3346359,
+    "lng": -105.6815009
+  },
+  "101 Mechem Dr, Ruidoso 88345.0": {
+    "lat": 33.3346359,
+    "lng": -105.6815009
+  },
+  "1100 Sudderth Dr., Ruidoso": {
+    "lat": 33.325368,
+    "lng": -105.658561
+  },
+  "1100 Sudderth Dr., Ruidoso 88345.0": {
+    "lat": 33.325368,
+    "lng": -105.658561
+  },
+  "1608 Sudderth Dr, Ruidoso": {
+    "lat": 33.3279544,
+    "lng": -105.6620286
+  },
+  "1608 Sudderth Dr, Ruidoso 88345.0": {
+    "lat": 33.3279544,
+    "lng": -105.6620286
+  },
+  "1715 Sudderth Dr, Ruidoso": {
+    "lat": 33.3280884,
+    "lng": -105.6623326
+  },
+  "1715 Sudderth Dr, Ruidoso 88345.0": {
+    "lat": 33.3280884,
+    "lng": -105.6623326
+  },
+  "1803 Sudderth, Ruidoso": {
+    "lat": 33.3283467,
+    "lng": -105.6630321
+  },
+  "1803 Sudderth, Ruidoso 88345.0": {
+    "lat": 33.3283467,
+    "lng": -105.6630321
+  },
+  "2117 Sudderth Dr., Ruidoso": {
+    "lat": 33.3301367,
+    "lng": -105.6666388
+  },
+  "2117 Sudderth Dr., Ruidoso 88345.0": {
+    "lat": 33.3301367,
+    "lng": -105.6666388
+  },
+  "2330 Sudderth Dr, Ruidoso": {
+    "lat": 33.3312347,
+    "lng": -105.6686982
+  },
+  "2330 Sudderth Dr, Ruidoso 88345.0": {
+    "lat": 33.3312347,
+    "lng": -105.6686982
+  },
+  "356 A Sudderth Drive, Ruidoso": {
+    "lat": 33.3226652,
+    "lng": -105.6372915
+  },
+  "356 A Sudderth Drive, Ruidoso 88345.0": {
+    "lat": 33.3226652,
+    "lng": -105.6372915
+  },
+  "360 Sudderth, Ruidoso": {
+    "lat": 33.3226626,
+    "lng": -105.6362705
+  },
+  "360 Sudderth, Ruidoso 88345.0": {
+    "lat": 33.3226626,
+    "lng": -105.6362705
+  },
+  "412 Mechem Dr, Ruidoso": {
+    "lat": 33.3361719,
+    "lng": -105.6775125
+  },
+  "412 Mechem Dr, Ruidoso 88035.0": {
+    "lat": 33.3361719,
+    "lng": -105.6775125
+  },
+  "117 West Walnut, Roswell": {
+    "lat": 33.3920757,
+    "lng": -104.5231086
+  },
+  "117 West Walnut, Roswell 88203.0": {
+    "lat": 33.3920757,
+    "lng": -104.5231086
+  },
+  "1407 West 2nd St, Roswell": {
+    "lat": 33.3942829,
+    "lng": -104.5413725
+  },
+  "1407 West 2nd St, Roswell 88201.0": {
+    "lat": 33.3942829,
+    "lng": -104.5413725
+  },
+  "1725 SE Main St. Suite B, Roswell": {
+    "lat": 33.3711889,
+    "lng": -104.5168279
+  },
+  "1725 SE Main St. Suite B, Roswell 88203.0": {
+    "lat": 33.3711889,
+    "lng": -104.5168279
+  },
+  "2303 N Main St, Roswell": {
+    "lat": 33.4197557,
+    "lng": -104.523239
+  },
+  "2303 N Main St, Roswell 88201.0": {
+    "lat": 33.4197557,
+    "lng": -104.523239
+  },
+  "2800 N. Main Street, Suite 4, Roswell": {
+    "lat": 33.4286392,
+    "lng": -104.5232245
+  },
+  "2800 N. Main Street, Suite 4, Roswell 88201.0": {
+    "lat": 33.4286392,
+    "lng": -104.5232245
+  },
+  "3108 North Main, Roswell": {
+    "lat": 33.4342491,
+    "lng": -104.5232867
+  },
+  "3108 North Main, Roswell 88201.0": {
+    "lat": 33.4342491,
+    "lng": -104.5232867
+  },
+  "313 W Country Club, Roswell": {
+    "lat": 33.4233539,
+    "lng": -104.5258367
+  },
+  "313 W Country Club, Roswell 88201.0": {
+    "lat": 33.4233539,
+    "lng": -104.5258367
+  },
+  "325 S MAIN ST, Roswell": {
+    "lat": 33.390623,
+    "lng": -104.5226442
+  },
+  "325 S MAIN ST, Roswell 88203.0": {
+    "lat": 33.390623,
+    "lng": -104.5226442
+  },
+  "3606 N Main St, Unit 500, Roswell": {
+    "lat": 33.4411895,
+    "lng": -104.5233372
+  },
+  "3606 N Main St, Unit 500, Roswell 88201.0": {
+    "lat": 33.4411895,
+    "lng": -104.5233372
+  },
+  "4311 N. Main Street, Roswell": {
+    "lat": 33.448998,
+    "lng": -104.5234525
+  },
+  "4311 N. Main Street, Roswell 88201.0": {
+    "lat": 33.448998,
+    "lng": -104.5234525
+  },
+  "711 N Union Ave, Roswell": {
+    "lat": 33.400103,
+    "lng": -104.5360202
+  },
+  "711 N Union Ave, Roswell 88201.0": {
+    "lat": 33.400103,
+    "lng": -104.5360202
+  },
+  "737 N Main St, Roswell": {
+    "lat": 33.4001146,
+    "lng": -104.5223664
+  },
+  "737 N Main St, Roswell 88201.0": {
+    "lat": 33.4001146,
+    "lng": -104.5223664
+  },
+  "1005 E. Hwy 66, Gallup": {
+    "lat": 35.5299487,
+    "lng": -108.7280113
+  },
+  "1005 E. Hwy 66, Gallup 87301.0": {
+    "lat": 35.5299487,
+    "lng": -108.7280113
+  },
+  "1020 W Maloney Ste A, Gallup": {
+    "lat": 35.52913,
+    "lng": -108.7569065
+  },
+  "1020 W Maloney Ste A, Gallup 87301.0": {
+    "lat": 35.52913,
+    "lng": -108.7569065
+  },
+  "103 Dean ST, Gallup": {
+    "lat": 35.5217149,
+    "lng": -108.7617683
+  },
+  "103 Dean ST, Gallup 87301.0": {
+    "lat": 35.5217149,
+    "lng": -108.7617683
+  },
+  "106 W Coal Ave, Gallup": {
+    "lat": 35.5274872,
+    "lng": -108.7413813
+  },
+  "106 W Coal Ave, Gallup 87301.0": {
+    "lat": 35.5274872,
+    "lng": -108.7413813
+  },
+  "1121 US 491, Gallup": {
+    "lat": 35.5386664,
+    "lng": -108.7585525
+  },
+  "1121 US 491, Gallup 87301.0": {
+    "lat": 35.5386664,
+    "lng": -108.7585525
+  },
+  "1208  East Highway 66, Gallup": {
+    "lat": 35.5296313,
+    "lng": -108.7144157
+  },
+  "1208  East Highway 66, Gallup 87301.0": {
+    "lat": 35.5296313,
+    "lng": -108.7144157
+  },
+  "1379 US-491, Gallup": {
+    "lat": 35.5456339,
+    "lng": -108.7590165
+  },
+  "1379 US-491, Gallup 87301.0": {
+    "lat": 35.5456339,
+    "lng": -108.7590165
+  },
+  "200 W. Coal Ave, Gallup": {
+    "lat": 35.5236915,
+    "lng": -108.7554371
+  },
+  "200 W. Coal Ave, Gallup 87301.0": {
+    "lat": 35.5236915,
+    "lng": -108.7554371
+  },
+  "3400 East Hwy 66, Gallup": {
+    "lat": 35.5296313,
+    "lng": -108.7144157
+  },
+  "3400 East Hwy 66, Gallup 87301.0": {
+    "lat": 35.5296313,
+    "lng": -108.7144157
+  },
+  "611 W Historic HWY 66, Gallup": {
+    "lat": 35.5164425,
+    "lng": -108.7793565
+  },
+  "611 W Historic HWY 66, Gallup 87301.0": {
+    "lat": 35.5164425,
+    "lng": -108.7793565
+  },
+  "1000 Golf Course Rd SE, Rio Rancho": {
+    "lat": 35.241441,
+    "lng": -106.677002
+  },
+  "1000 Golf Course Rd SE, Rio Rancho 87124.0": {
+    "lat": 35.241441,
+    "lng": -106.677002
+  },
+  "2320 Grande Blvd. SE, Rio Rancho": {
+    "lat": 35.2195769,
+    "lng": -106.66397
+  },
+  "2320 Grande Blvd. SE, Rio Rancho 87124.0": {
+    "lat": 35.2195769,
+    "lng": -106.66397
+  },
+  "3851 Southern Blvd., SE, Rio Rancho": {
+    "lat": 35.2416433,
+    "lng": -106.6595328
+  },
+  "3851 Southern Blvd., SE, Rio Rancho 87124.0": {
+    "lat": 35.2416433,
+    "lng": -106.6595328
+  },
+  "700 Avenida Dolores Huerta Ave, Albuquerque": {
+    "lat": 35.070159,
+    "lng": -106.6553176
+  },
+  "700 Avenida Dolores Huerta Ave, Albuquerque 87105.0": {
+    "lat": 35.070159,
+    "lng": -106.6553176
+  },
+  "904 Broadway NE St. A, Albuquerque": {
+    "lat": 35.0924372,
+    "lng": -106.6428511
+  },
+  "904 Broadway NE St. A, Albuquerque 87102.0": {
+    "lat": 35.0924372,
+    "lng": -106.6428511
+  },
+  "4840-H Pan American East Freeway, Albuquerque": {
+    "lat": 35.1360143,
+    "lng": -106.6035273
+  },
+  "4840-H Pan American East Freeway, Albuquerque 87109.0": {
+    "lat": 35.1360143,
+    "lng": -106.6035273
+  },
+  "520 Airport Blvd NW, Albuquerque": {
+    "lat": 35.0878549,
+    "lng": -106.7187283
+  },
+  "520 Airport Blvd NW, Albuquerque 87121.0": {
+    "lat": 35.0878549,
+    "lng": -106.7187283
+  },
+  "3620 NM State Hwy 528, Albuquerque": {
+    "lat": 35.2213897,
+    "lng": -106.661289
+  },
+  "3620 NM State Hwy 528, Albuquerque 87114.0": {
+    "lat": 35.2213897,
+    "lng": -106.661289
+  },
+  "8150 Paseo del Norte NE, Albuquerque": {
+    "lat": 35.174136,
+    "lng": -106.553911
+  },
+  "8150 Paseo del Norte NE, Albuquerque 87109.0": {
+    "lat": 35.174136,
+    "lng": -106.553911
   }
 }

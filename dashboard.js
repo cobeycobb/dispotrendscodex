@@ -21,6 +21,7 @@ class DispensaryDashboard {
         this.setupEventListeners();
         this.populateFilters();
         this.setCurrentData();
+        this.updateCoverageText();
         this.updateSortIndicators();
         this.applyFilters(); // Apply filters initially to show all dispensaries
     }
@@ -838,6 +839,27 @@ class DispensaryDashboard {
                 }
             }
         });
+    }
+
+    updateCoverageText() {
+        const coverageElement = document.getElementById('coverage-text');
+        if (!coverageElement) {
+            return;
+        }
+
+        if (!this.data || !Array.isArray(this.data.months_covered) || this.data.months_covered.length === 0) {
+            coverageElement.textContent = 'Sales analysis and trends for licensed cannabis retailers across New Mexico';
+            return;
+        }
+
+        const months = [...this.data.months_covered].sort();
+        const firstMonth = months[0];
+        const lastMonth = months[months.length - 1];
+        const rangeLabel = firstMonth === lastMonth
+            ? this.formatMonth(firstMonth)
+            : `${this.formatMonth(firstMonth)} – ${this.formatMonth(lastMonth)}`;
+
+        coverageElement.textContent = `Sales analysis and trends for licensed cannabis retailers (${rangeLabel})`;
     }
 
     formatMonth(monthString) {

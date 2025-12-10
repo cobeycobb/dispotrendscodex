@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a New Mexico Dispensary Trends Dashboard - a static web application that analyzes cannabis dispensary sales data from January-August 2025. The dashboard provides interactive visualizations, filtering, and geographic mapping of dispensary performance trends across New Mexico.
+This is a New Mexico Dispensary Trends Dashboard - a static web application that analyzes cannabis dispensary sales data from January-November 2025 (latest update includes November data). The dashboard provides interactive visualizations, filtering, and geographic mapping of dispensary performance trends across New Mexico.
 
 ## Architecture
 

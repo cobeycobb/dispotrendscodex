@@ -1,6 +1,6 @@
 # New Mexico Dispensary Trends Dashboard
 
-Interactive dashboard for analyzing cannabis dispensary sales trends in New Mexico (January - August 2025).
+Interactive dashboard for analyzing cannabis dispensary sales trends in New Mexico (January - November 2025 data, including the latest November report).
 
 ## Features
 
@@ -12,12 +12,13 @@ Interactive dashboard for analyzing cannabis dispensary sales trends in New Mexi
 
 ## Data Overview
 
-- **728 dispensaries** tracked across New Mexico
-- **8 months** of sales data (Jan-Aug 2025)
+- **795 dispensaries** tracked across New Mexico
+- **9 months** of sales data (Jan-Nov 2025)
 - **Trend Categories**:
-  - 249 dispensaries trending up
-  - 208 dispensaries trending down  
-  - 271 dispensaries stable
+  - 71 dispensaries trending up (including strong up)
+  - 103 dispensaries trending down (including strong down)
+  - 514 dispensaries stable
+  - 107 dispensaries with limited/insufficient data
 
 ## Usage
 
